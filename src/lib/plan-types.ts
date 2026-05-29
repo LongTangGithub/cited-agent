@@ -1,4 +1,4 @@
-export type PlanStepStatus = "proposed" | "approved";
+export type PlanStepStatus = "proposed" | "approved" | "running" | "done" | "failed";
 
 export type PlanStepArgs = Record<string, string | number | boolean>;
 
