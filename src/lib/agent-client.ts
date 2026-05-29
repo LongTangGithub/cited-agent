@@ -34,6 +34,7 @@ async function consumeSSE(
 export function useAgent() {
   const [state, setState] = useState<AgentState>("idle");
   const [steps, setSteps] = useState<PlanStep[]>([]);
+  const [stepResults, setStepResults] = useState<Record<number, unknown>>({});
   const [summary, setSummary] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const stepsRef = useRef<PlanStep[]>([]);
@@ -104,6 +105,7 @@ export function useAgent() {
     setState("executing");
     setSummary(null);
     setError(null);
+    setStepResults({});
 
     try {
       const res = await fetch("/api/agent", {
@@ -120,6 +122,7 @@ export function useAgent() {
           updateStepStatus(event.stepNumber, "running");
         } else if (event.type === "step_done") {
           updateStepStatus(event.stepNumber, "done");
+          setStepResults((prev) => ({ ...prev, [event.stepNumber]: event.result }));
         } else if (event.type === "step_failed") {
           updateStepStatus(event.stepNumber, "failed");
         } else if (event.type === "execution_complete") {
@@ -143,10 +146,11 @@ export function useAgent() {
     abortRef.current = null;
     setState("idle");
     setSteps([]);
+    setStepResults({});
     setSummary(null);
     setError(null);
     stepsRef.current = [];
   }, []);
 
-  return { state, steps, summary, error, runPlan, executePlan, reset };
+  return { state, steps, stepResults, summary, error, runPlan, executePlan, reset };
 }

@@ -6,7 +6,7 @@ Source of truth for what's built, in flight, and next. Read before touching code
 
 ## Current Focus
 
-**Day 4** — Real Anthropic API tool-use loop: two-phase plan + execute over SSE.
+**Day 5** — Citation system: inline citation chips, hover previews, dual-provenance side panel.
 
 ---
 
@@ -21,6 +21,7 @@ Source of truth for what's built, in flight, and next. Read before touching code
 
 ### 2026-05-29 — Day 4
 
+- **Day 5 — Citation system.** `src/lib/citations/types.ts` (Citation type), `src/lib/citations/parse.ts` (splitOnCitations regex), `src/components/citations/CitationChip.tsx` (inline chip + HoverCard preview), `src/components/citations/ProvenancePanel.tsx` (Source + Reasoning dual-section, 156 lines), `src/components/citations/SidePanel.tsx` (controlled Sheet, no remount on citation swap), `src/components/markdown/SummaryMarkdown.tsx` (react-markdown + citation injection), `/api/leases/[id]` GET route. Updated route.ts (citation instruction after cached block), agent-client.ts (stepResults store), page.tsx (activeCitation state, SidePanel, SummaryMarkdown). Branch: `day-5-citations`. `tsc --noEmit` clean, build passes. Citation compliance: 7 citations in Q1 scenario summary (all 6 leases cited, lease_014 appears twice). Browser verification needed: hover preview, side panel toggle, swap-without-remount animation.
 - **Day 4 polish.** AbortController in useAgent (abort on chip switch + reset); staged `plan_step_added` events replace raw `plan_delta` (80ms stagger, cards appear one at a time, "Approve & run" gated until `plan_complete`). Cache confirmed: call 1 `creation=37552 read=0`; call 2 `creation=41 read=37552`; calls 3-4 `creation=0 read=37552+`. `tsc --noEmit` clean.
 - **Day 4 — Anthropic API tool-use loop.** `src/lib/agent-types.ts` (AgentEvent + AgentState), `src/lib/tools/index.ts` (searchLeases, extractClause, compareTerms, draftEmail + Anthropic schemas), `src/app/api/agent/route.ts` (SSE route, Phase 1 streaming plan, Phase 2 agentic execution loop), `src/lib/agent-client.ts` (useAgent hook), updated PlanCard (running/done/failed states), ActionBar (Approve & run enabled), page.tsx (mock replaced with useAgent). `tsc --noEmit` clean, build passes. Verified via curl: Phase 1 streams plan_delta tokens and emits plan_complete; Phase 2 emits step_start/step_done per tool call and execution_complete with summary; step_failed fires correctly on tool error. Prompt cache: `cache_control: {type: "ephemeral"}` on lease dataset block. Decision: `plan_delta.partial` typed as `string` (raw JSON accumulation) rather than `Partial<PlanStep>[]` — avoids streaming JSON parser dep; client shows spinner during planning.
 
@@ -48,7 +49,7 @@ Source of truth for what's built, in flight, and next. Read before touching code
 | ~~2~~ | ~~50-lease JSON dataset~~ — ✅ done |
 | ~~3~~ | ~~Plan-card UI~~ — ✅ done |
 | ~~4~~ | ~~Anthropic API tool use~~ — ✅ done |
-| 5 | Citation system — dual citations (source doc + reasoning step) with hover previews |
+| ~~5~~ | ~~Citation system~~ — ✅ done |
 | 5-stretch | Add REA + standalone COI doc types to leases.json for visual variety — not a functional unlock, all 3 demo scenarios work without them |
 | 6 | Doc-jump — click citation opens lease at exact clause in side panel, highlighted |
 | 7 | Polish citations, hover states, keyboard nav. Buffer day. |

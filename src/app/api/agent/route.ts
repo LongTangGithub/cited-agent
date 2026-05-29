@@ -98,12 +98,24 @@ async function handlePlan(
   send(ctrl, enc, { type: "plan_complete", steps });
 }
 
+const CITATION_INSTRUCTION =
+  "When writing the final summary, embed citation tokens inline for every specific lease or clause you reference. " +
+  "Use these formats: [lease_XXX] for a lease reference, [lease_XXX#clause_YYY] when citing a specific clause, " +
+  "[lease_XXX#clause_YYY@step_N] when the clause was extracted in a specific tool-call step. " +
+  "Always prefer the most specific form available. Use these tokens inline in prose, not in tables or lists. " +
+  "Example: 'Five Below at Northgate Plaza [lease_007] expires January 31, 2026 and lacks a current " +
+  "certificate of insurance [lease_007#clause_011@step_3].'";
+
 async function handleExecute(
   ctrl: ReadableStreamDefaultController,
   enc: TextEncoder,
   plan: PlanStep[],
 ) {
-  const system = buildSystem();
+  // Citation instruction added AFTER the cached dataset block to preserve cache validity.
+  const system: Anthropic.TextBlockParam[] = [
+    ...buildSystem(),
+    { type: "text", text: CITATION_INSTRUCTION },
+  ];
   const userMsg =
     `Execute this plan step-by-step:\n${JSON.stringify(plan, null, 2)}\n\n` +
     "Call each tool as described. After all tool calls complete, provide a brief summary of findings.";
