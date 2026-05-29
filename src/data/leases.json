@@ -1,0 +1,1790 @@
+[
+  {
+    "id": "lease_001",
+    "property": {
+      "name": "Blue Ridge Town Center",
+      "address": "1400 Merrimon Avenue, Asheville, NC 28804",
+      "anchorTenant": "Whole Foods"
+    },
+    "tenant": { "name": "Patagonia Outdoor Co.", "industry": "retail", "creditRating": "BBB-" },
+    "term": { "commencement": "2019-03-01", "expiration": "2026-02-28", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 38.50, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-01-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_001", "type": "lease",
+        "title": "Retail Lease — Patagonia Outdoor Co. at Blue Ridge Town Center",
+        "pageCount": 48,
+        "clauses": [
+          {
+            "id": "clause_001", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,800 rentable square feet, the sum of $38.50 per rentable square foot per annum, payable in equal monthly installments of $8,983.33 in advance on the first day of each calendar month during the Term, without deduction, setoff, prior notice, or demand. Base Rent shall be subject to annual escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_002", "section": "§4.2", "heading": "Rent Escalation",
+            "text": "Commencing on the first anniversary of the Rent Commencement Date and on each anniversary thereafter during the Term, Base Rent shall increase by three percent (3%) over the Base Rent payable during the immediately preceding Lease Year. Such increases shall be cumulative and compounding. By illustration, Base Rent in Lease Year 2 shall be $39.655 per rentable square foot per annum, and in Lease Year 3 shall be $40.845 per rentable square foot per annum. In no event shall any annual adjustment result in a decrease in Base Rent."
+          },
+          {
+            "id": "clause_003", "section": "§11.1", "heading": "Insurance Requirements",
+            "text": "Tenant shall, at its sole cost and expense, maintain throughout the Term: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 in the aggregate; (b) property insurance covering Tenant's personal property and trade fixtures on an all-risk basis at full replacement cost; and (c) workers' compensation insurance as required by applicable North Carolina law. All policies shall name Landlord and any holder of a mortgage or deed of trust on the Property as additional insureds. Tenant shall deliver certificates of insurance to Landlord no later than the Commencement Date and within ten (10) days following each annual renewal."
+          }
+        ]
+      },
+      {
+        "id": "doc_002", "type": "amendment",
+        "title": "First Amendment to Retail Lease — Patagonia Outdoor Co.",
+        "pageCount": 6,
+        "clauses": [
+          {
+            "id": "clause_004", "section": "§1", "heading": "Expansion of Premises",
+            "text": "Effective October 1, 2022, the Premises are hereby expanded to include Suite 104-B, consisting of approximately 320 additional rentable square feet (the 'Expansion Space'), for a total of approximately 3,120 rentable square feet. Base Rent attributable to the Expansion Space shall be $38.50 per rentable square foot per annum, subject to the same annual escalation schedule set forth in Section 4.2 of the Lease, applied to the consolidated Premises from the Expansion Date forward."
+          },
+          {
+            "id": "clause_005", "section": "§2", "heading": "Permitted Use — Worn Wear Program",
+            "text": "Section 6.1 of the Lease is hereby amended to permit Tenant to operate a limited repair and resale program for used outdoor apparel and equipment within the Expansion Space (the 'Worn Wear Program'), in addition to Tenant's existing first-line retail operations. Tenant shall not use the Expansion Space in any manner that generates pedestrian traffic or operational impacts materially inconsistent with the standards of a first-class lifestyle retail center, as reasonably determined by Landlord."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_002",
+    "property": {
+      "name": "Westfield Commons",
+      "address": "3200 E. Colfax Avenue, Denver, CO 80206",
+      "anchorTenant": "Whole Foods"
+    },
+    "tenant": { "name": "Warby Parker LLC", "industry": "retail", "creditRating": "NR" },
+    "term": { "commencement": "2020-06-01", "expiration": "2028-05-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 44.00, "escalationType": "fixed", "escalationRate": 0.025 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-08-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_003", "type": "lease",
+        "title": "Retail Lease — Warby Parker LLC at Westfield Commons",
+        "pageCount": 42,
+        "clauses": [
+          {
+            "id": "clause_006", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,600 rentable square feet, the sum of $44.00 per rentable square foot per annum, payable in equal monthly installments of $5,866.67 in advance on the first day of each calendar month during the Term. Base Rent is subject to adjustment as provided in Section 4.2 and shall be payable without offset, deduction, or prior demand."
+          },
+          {
+            "id": "clause_007", "section": "§4.2", "heading": "Annual Rent Escalation",
+            "text": "On the first day of each Lease Year following Lease Year 1, Base Rent shall increase by two and one-half percent (2.5%) over the Base Rent in effect for the immediately preceding Lease Year. Such adjustments are cumulative and compounding. No adjustment shall cause Base Rent to decrease below the rate in effect for the preceding Lease Year."
+          },
+          {
+            "id": "clause_008", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall procure and maintain at Tenant's expense throughout the Term: (a) commercial general liability insurance in an amount not less than $2,000,000 per occurrence and $4,000,000 aggregate; (b) all-risk property insurance on Tenant's trade fixtures, furniture, and leasehold improvements at replacement cost value; and (c) workers' compensation coverage as required under Colorado law. Each policy shall name Landlord, Landlord's property manager, and Landlord's lender as additional insureds and shall provide thirty (30) days' notice to Landlord prior to cancellation."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_003",
+    "property": {
+      "name": "Lakefront Plaza",
+      "address": "900 N. Michigan Avenue, Chicago, IL 60611",
+      "anchorTenant": "Whole Foods"
+    },
+    "tenant": { "name": "SoulCycle Inc.", "industry": "fitness", "creditRating": "NR" },
+    "term": { "commencement": "2021-01-15", "expiration": "2029-01-14", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 52.00, "escalationType": "cpi" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-11-30", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_004", "type": "lease",
+        "title": "Retail Lease — SoulCycle Inc. at Lakefront Plaza",
+        "pageCount": 52,
+        "clauses": [
+          {
+            "id": "clause_009", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 4,200 rentable square feet, the sum of $52.00 per rentable square foot per annum, payable in equal monthly installments of $18,200.00 in advance on the first day of each calendar month. Base Rent shall be subject to CPI adjustment as set forth in Section 4.2. All payments shall be made without prior notice, demand, or offset."
+          },
+          {
+            "id": "clause_010", "section": "§4.2", "heading": "CPI Rent Adjustment",
+            "text": "Base Rent shall be adjusted annually on each anniversary of the Rent Commencement Date by a percentage equal to the annual change in the Consumer Price Index for All Urban Consumers, Chicago-Naperville-Elgin metropolitan area (CPI-U), as published by the U.S. Bureau of Labor Statistics for the twelve (12) month period ending sixty (60) days prior to the applicable adjustment date; provided, however, that in no event shall any single annual adjustment exceed five percent (5%) or be less than one and one-half percent (1.5%), regardless of the actual CPI change."
+          },
+          {
+            "id": "clause_011", "section": "§11.1", "heading": "Required Insurance",
+            "text": "Throughout the Term, Tenant shall carry and maintain at Tenant's sole expense: (a) commercial general liability insurance with per-occurrence limits of not less than $2,000,000 and annual aggregate limits of not less than $4,000,000, specifically covering fitness studio operations including bodily injury to class participants; (b) property insurance on Tenant's personal property and studio equipment at full replacement cost on an all-risk basis; and (c) workers' compensation and employer's liability insurance as required by the Illinois Workers' Compensation Act. Landlord, Landlord's managing agent, and any recorded mortgagee shall be named as additional insureds on all liability policies."
+          },
+          {
+            "id": "clause_012", "section": "§22.1", "heading": "Renewal Option",
+            "text": "Provided Tenant is not in default beyond applicable notice and cure periods, Tenant shall have one (1) option to renew this Lease for an additional period of five (5) years (the 'Renewal Term') upon no less than twelve (12) months' prior written notice to Landlord. Base Rent during the Renewal Term shall be the greater of (i) the then-current Base Rent in effect immediately preceding the Renewal Term, or (ii) ninety-five percent (95%) of the then-prevailing fair market rental rate for comparable fitness studio space in the Chicago CBD submarket, as mutually agreed by the parties or, failing agreement, determined by a single MAI-certified appraiser mutually selected within thirty (30) days of Landlord's receipt of Tenant's renewal notice."
+          }
+        ]
+      },
+      {
+        "id": "doc_005", "type": "rea",
+        "title": "Reciprocal Easement Agreement — Lakefront Plaza",
+        "pageCount": 22,
+        "clauses": [
+          {
+            "id": "clause_013", "section": "§3.1", "heading": "Common Area Maintenance Obligations",
+            "text": "Each party shall maintain its respective portion of the Shopping Center in a clean, safe, and first-class condition consistent with comparable retail developments in the Chicago metropolitan area. Common maintenance costs for shared infrastructure — including perimeter landscaping, exterior lighting, and stormwater management systems — shall be allocated sixty percent (60%) to the anchor parcel owner and forty percent (40%) to the in-line retail parcels, based on respective leasable square footage, subject to annual reconciliation."
+          },
+          {
+            "id": "clause_014", "section": "§3.2", "heading": "Cross-Access and Parking",
+            "text": "Each party hereby grants to the other party, and to their respective tenants, customers, and invitees, a perpetual non-exclusive easement for pedestrian and vehicular access, ingress, and egress over the Common Parking Area and drive aisles depicted on Exhibit B hereto. Neither party shall erect barriers, fences, or structures that materially impair such cross-access without the prior written consent of the other party, which shall not be unreasonably withheld, conditioned, or delayed."
+          },
+          {
+            "id": "clause_015", "section": "§4.1", "heading": "Signage Coordination",
+            "text": "All exterior signage on the pylon sign and monument signage structures identified on Exhibit C shall be subject to a signage plan mutually approved by both parties, acting reasonably and in good faith. Neither party shall install or modify pylon sign panels without providing the other party at least thirty (30) days' prior written notice and obtaining any required governmental approvals. Sign panel priority shall be allocated: Tier 1 — anchor tenant; Tier 2 — in-line tenants greater than 5,000 rentable square feet; Tier 3 — all remaining in-line tenants, on a first-come, first-served basis."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_004",
+    "property": {
+      "name": "Harbor Point Marketplace",
+      "address": "2801 Western Avenue, Seattle, WA 98121",
+      "anchorTenant": "Whole Foods"
+    },
+    "tenant": { "name": "Lululemon Athletica Inc.", "industry": "retail", "creditRating": "A-" },
+    "term": { "commencement": "2019-09-01", "expiration": "2027-08-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 61.50, "escalationType": "stepped" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-06-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_006", "type": "lease",
+        "title": "Retail Lease — Lululemon Athletica Inc. at Harbor Point Marketplace",
+        "pageCount": 56,
+        "clauses": [
+          {
+            "id": "clause_016", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,400 rentable square feet, the sum per rentable square foot per annum set forth in Section 4.2, payable in equal monthly installments in advance on the first day of each calendar month during the applicable Lease Year period, without deduction or offset. Base Rent for the initial Lease Year shall be $56.00 per rentable square foot per annum, payable in monthly installments of $11,200.00."
+          },
+          {
+            "id": "clause_017", "section": "§4.2", "heading": "Stepped Rent Schedule",
+            "text": "Notwithstanding Section 4.1, Base Rent shall escalate pursuant to the following schedule: (i) Lease Years 1 through 3 (September 1, 2019 – August 31, 2022): $56.00 per rentable square foot per annum ($11,200.00 per month); (ii) Lease Years 4 through 6 (September 1, 2022 – August 31, 2025): $61.50 per rentable square foot per annum ($12,300.00 per month); (iii) Lease Years 7 through 8 (September 1, 2025 – August 31, 2027): $67.00 per rentable square foot per annum ($13,400.00 per month). Each step increase shall be self-effectuating on the applicable date without further notice or amendment."
+          },
+          {
+            "id": "clause_018", "section": "§11.1", "heading": "Tenant's Insurance Obligations",
+            "text": "Tenant shall procure and maintain, at Tenant's sole cost, throughout the Term: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 aggregate; (b) product liability insurance of not less than $5,000,000 per occurrence, given Tenant's retail apparel operations; (c) property insurance at replacement cost covering all Tenant's property and leasehold improvements; and (d) workers' compensation as required by Washington State law. All policies shall name Landlord, Landlord's managing agent, and Landlord's lender as additional insureds. Certificates shall be delivered to Landlord prior to the Commencement Date."
+          },
+          {
+            "id": "clause_019", "section": "§22.1", "heading": "Renewal Options",
+            "text": "Provided Tenant is not in monetary or material non-monetary default beyond applicable cure periods, Tenant shall have two (2) consecutive options to renew this Lease for five (5) years each. Each option must be exercised by written notice delivered to Landlord no later than twelve (12) months prior to expiration of the then-current Term. Base Rent during each Renewal Term shall be reset to ninety-five percent (95%) of the then-prevailing fair market rental value for comparable ground-floor retail space in the South Lake Union / Belltown corridor, as mutually agreed or determined by binding appraisal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_005",
+    "property": {
+      "name": "Meridian Crossing",
+      "address": "7500 E. Camelback Road, Phoenix, AZ 85251",
+      "anchorTenant": "Whole Foods"
+    },
+    "tenant": { "name": "Restore Hyper Wellness Inc.", "industry": "wellness", "creditRating": "NR" },
+    "term": { "commencement": "2022-04-01", "expiration": "2030-03-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 29.00, "escalationType": "none" },
+    "cotenancy": { "hasCotenancy": true, "requiredTenants": ["Whole Foods"], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-09-30", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_007", "type": "lease",
+        "title": "Retail Lease — Restore Hyper Wellness Inc. at Meridian Crossing",
+        "pageCount": 44,
+        "clauses": [
+          {
+            "id": "clause_020", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 3,500 rentable square feet, the fixed sum of $29.00 per rentable square foot per annum, payable in equal monthly installments of $8,458.33 in advance on the first day of each calendar month during the Term. Notwithstanding any other provision hereof, Base Rent shall remain fixed and shall not be subject to increase during the initial Term, except as expressly provided with respect to Operating Expense Adjustments in Section 8.3."
+          },
+          {
+            "id": "clause_021", "section": "§7.1", "heading": "Co-Tenancy Condition",
+            "text": "Tenant's obligation to pay Base Rent at the full rate specified in Section 4.1 is conditioned upon Whole Foods Market operating a fully open and continuously operating retail grocery store of no less than 30,000 square feet at the Shopping Center (the 'Co-Tenancy Condition'). In the event the Co-Tenancy Condition is not satisfied for ninety (90) or more consecutive days (excluding closures for remodeling not to exceed one hundred twenty (120) days), Tenant shall have the right, upon thirty (30) days' written notice to Landlord, to pay Substitute Rent equal to six percent (6%) of Tenant's monthly Gross Sales in lieu of Base Rent."
+          },
+          {
+            "id": "clause_022", "section": "§7.2", "heading": "Co-Tenancy Termination Right",
+            "text": "If the Co-Tenancy Condition remains unsatisfied for a continuous period of two hundred seventy (270) days following Tenant's election to pay Substitute Rent under Section 7.1, Tenant shall have the right to terminate this Lease upon sixty (60) days' prior written notice to Landlord, with neither party having any further liability to the other except for obligations accrued prior to the effective date of termination and Tenant's obligation to surrender the Premises in the condition required by Section 19."
+          },
+          {
+            "id": "clause_023", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's expense: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 aggregate, specifically endorsing Tenant's hydrotherapy, cryotherapy, and recovery suite operations; (b) professional liability (errors and omissions) insurance of not less than $1,000,000 per claim; (c) property insurance at replacement cost covering Tenant's medical-grade equipment and improvements; and (d) workers' compensation as required under Arizona law. All policies shall name Landlord as additional insured. Current certificate on file through September 30, 2026."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_006",
+    "property": {
+      "name": "Riverside Square",
+      "address": "3393 Peachtree Road NE, Atlanta, GA 30326",
+      "anchorTenant": "Whole Foods"
+    },
+    "tenant": { "name": "Anthropologie Group LLC", "industry": "retail", "creditRating": "BBB" },
+    "term": { "commencement": "2018-11-01", "expiration": "2028-10-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 47.75, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": false, "expirationDate": null, "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_008", "type": "lease",
+        "title": "Retail Lease — Anthropologie Group LLC at Riverside Square",
+        "pageCount": 61,
+        "clauses": [
+          {
+            "id": "clause_024", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 6,800 rentable square feet, the sum of $47.75 per rentable square foot per annum, payable in equal monthly installments of $27,058.33 in advance on the first day of each calendar month during the Term, without offset, deduction, or demand. Base Rent shall be subject to the annual escalation set forth in Section 4.2 commencing in Lease Year 2."
+          },
+          {
+            "id": "clause_025", "section": "§4.2", "heading": "Fixed Annual Escalation",
+            "text": "Commencing on the first anniversary of the Commencement Date and on each anniversary thereafter, Base Rent shall increase by three percent (3%) over the Base Rent payable in the immediately preceding Lease Year. Such increases shall be cumulative and compounding and shall not be subject to adjustment based on any index, market condition, or other factor. The escalated rent schedule, calculated from a base of $47.75 per rentable square foot, shall govern regardless of any change in occupancy levels at the Shopping Center."
+          },
+          {
+            "id": "clause_026", "section": "§11.1", "heading": "Insurance — Tenant's Obligations",
+            "text": "Tenant shall at all times during the Term maintain, at Tenant's sole cost, the following: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 in the aggregate; (b) all-risk property insurance on Tenant's merchandise, trade fixtures, and Tenant's Work at full replacement cost; and (c) workers' compensation and employer's liability as required under Georgia law. All policies naming Landlord and any mortgagee as additional insureds. NOTE: Certificate of insurance on file has expired. Tenant has not delivered a renewal certificate as of the date of this review."
+          }
+        ]
+      },
+      {
+        "id": "doc_009", "type": "amendment",
+        "title": "Second Amendment to Retail Lease — Anthropologie Group LLC",
+        "pageCount": 8,
+        "clauses": [
+          {
+            "id": "clause_027", "section": "§1", "heading": "Extended Term",
+            "text": "The Term of the Lease, as previously amended, is hereby extended for a period of two (2) years, such that the new Expiration Date shall be October 31, 2028, unless sooner terminated in accordance with the terms of the Lease. Base Rent during the Extension Period shall continue to escalate at three percent (3%) per annum as provided in Section 4.2 of the Lease, applied to the Base Rent in effect as of November 1, 2026."
+          },
+          {
+            "id": "clause_028", "section": "§2", "heading": "Tenant Improvement Allowance",
+            "text": "In consideration of Tenant's agreement to extend the Term as provided herein, Landlord shall provide Tenant with a tenant improvement allowance not to exceed $75,000.00 (the 'TI Allowance'), to be applied toward the cost of Tenant's approved interior renovation of the Premises. The TI Allowance shall be disbursed by Landlord within thirty (30) days following receipt of (i) lien waivers from all contractors and subcontractors, (ii) a certificate of completion from Tenant's architect, and (iii) evidence that all required permits have been finaled. Unused TI Allowance shall be forfeited."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_007",
+    "property": {
+      "name": "Northgate Plaza",
+      "address": "2600 W. Broadway Ave, Minneapolis, MN 55411",
+      "anchorTenant": "Target"
+    },
+    "tenant": { "name": "Five Below Inc.", "industry": "retail", "creditRating": "BB+" },
+    "term": { "commencement": "2016-02-01", "expiration": "2026-01-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 18.50, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": false, "expirationDate": null, "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_010", "type": "lease",
+        "title": "Retail Lease — Five Below Inc. at Northgate Plaza",
+        "pageCount": 44,
+        "clauses": [
+          {
+            "id": "clause_029", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 8,500 rentable square feet, the sum of $18.50 per rentable square foot per annum, payable in equal monthly installments of $13,104.17 in advance on the first day of each calendar month. Base Rent shall be subject to the annual escalation provisions of Section 4.2. This Lease expires January 31, 2026; Tenant has not delivered a certificate of insurance as required under Section 11.1."
+          },
+          {
+            "id": "clause_030", "section": "§4.2", "heading": "Annual Rent Escalation",
+            "text": "Effective on the first day of Lease Year 2 and each Lease Year thereafter, Base Rent shall increase by two percent (2%) over the Base Rent in effect during the immediately preceding Lease Year. Such increases are cumulative and compounding. For reference, Base Rent in Lease Year 10 (February 1, 2025 – January 31, 2026) shall be $22.57 per rentable square foot per annum ($15,988.38 per month)."
+          },
+          {
+            "id": "clause_031", "section": "§11.1", "heading": "Insurance Requirements",
+            "text": "Tenant shall procure and maintain throughout the Term at Tenant's expense: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 aggregate; (b) all-risk property insurance on Tenant's merchandise, trade fixtures, and leasehold improvements at replacement cost; and (c) workers' compensation as required under Minnesota law. Tenant shall name Landlord and any recorded mortgagee as additional insureds and deliver certificates to Landlord no later than ten (10) days prior to Commencement and within ten (10) days of each renewal."
+          }
+        ]
+      },
+      {
+        "id": "doc_011", "type": "amendment",
+        "title": "First Amendment to Retail Lease — Five Below Inc.",
+        "pageCount": 5,
+        "clauses": [
+          {
+            "id": "clause_032", "section": "§1", "heading": "Parking Expansion — Exclusive Loading Area",
+            "text": "Section 14.2 of the Lease is hereby amended to designate two (2) parking spaces immediately adjacent to the Tenant's rear delivery entrance (Spaces P-44 and P-45 as shown on Exhibit A-1 hereto) as exclusive loading and unloading spaces for Tenant's use during Tenant's store hours. Such spaces shall be marked 'Tenant Loading — No Parking' and shall not be used by other tenants or the general public. Landlord shall bear the cost of marking and signage for such spaces."
+          },
+          {
+            "id": "clause_033", "section": "§2", "heading": "HVAC Replacement — Cost Allocation",
+            "text": "Landlord and Tenant agree that the cost of replacing the rooftop HVAC unit serving the Premises (Unit RTU-7, approximately 15-ton capacity) shall be shared equally between the parties, with each party contributing fifty percent (50%) of the documented replacement cost, not to exceed $18,000.00 per party. Landlord shall manage the replacement and invoice Tenant for Tenant's share within thirty (30) days of completion. Tenant's contribution shall be payable within thirty (30) days of receipt of Landlord's invoice."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_008",
+    "property": {
+      "name": "Elm Street Marketplace",
+      "address": "800 Boylston Street, Boston, MA 02199",
+      "anchorTenant": "Target"
+    },
+    "tenant": { "name": "Ulta Beauty Inc.", "industry": "retail", "creditRating": "BBB" },
+    "term": { "commencement": "2020-08-01", "expiration": "2028-07-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 52.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-05-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_012", "type": "lease",
+        "title": "Retail Lease — Ulta Beauty Inc. at Elm Street Marketplace",
+        "pageCount": 50,
+        "clauses": [
+          {
+            "id": "clause_034", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 5,200 rentable square feet, the sum of $52.00 per rentable square foot per annum, payable in equal monthly installments of $22,533.33 in advance on the first day of each calendar month during the Term. Rent is due without notice or demand, and Tenant waives any right to deduct from or offset against rent amounts claimed to be owed by Landlord. Base Rent is subject to annual increases as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_035", "section": "§4.2", "heading": "Annual Rent Escalation",
+            "text": "On the first day of Lease Year 2 and each Lease Year thereafter, Base Rent shall increase by three percent (3%) over the immediately preceding Lease Year's Base Rent. Increases are cumulative and compounding. The escalated monthly rent obligations for the remainder of the Term, calculated from the Commencement Date at the agreed escalation rate, are incorporated by reference in Exhibit C to this Lease."
+          },
+          {
+            "id": "clause_036", "section": "§11.1", "heading": "Insurance Obligations",
+            "text": "Tenant shall, at Tenant's sole cost and expense, maintain throughout the Term: (a) commercial general liability insurance with per-occurrence limits of $2,000,000 and annual aggregate limits of $4,000,000, covering all operations in and from the Premises including beauty services and retail sales; (b) product liability coverage of not less than $2,000,000 per claim; (c) all-risk property insurance at replacement cost covering Tenant's trade fixtures, salon equipment, and inventory; and (d) workers' compensation as required under Massachusetts law. Landlord, Landlord's managing agent, and any holder of a mortgage on the Property shall be named additional insureds."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_009",
+    "property": {
+      "name": "Sunset Crossing",
+      "address": "4515 La Jolla Village Drive, San Diego, CA 92122",
+      "anchorTenant": "Target"
+    },
+    "tenant": { "name": "Sephora USA Inc.", "industry": "retail", "creditRating": "A" },
+    "term": { "commencement": "2021-03-01", "expiration": "2029-02-28", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 58.25, "escalationType": "cpi" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-10-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_013", "type": "lease",
+        "title": "Retail Lease — Sephora USA Inc. at Sunset Crossing",
+        "pageCount": 54,
+        "clauses": [
+          {
+            "id": "clause_037", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 3,100 rentable square feet, the sum of $58.25 per rentable square foot per annum, payable in equal monthly installments of $15,047.92 in advance on the first day of each calendar month. Base Rent shall be subject to annual CPI adjustment as provided in Section 4.2 commencing on the first anniversary of the Rent Commencement Date."
+          },
+          {
+            "id": "clause_038", "section": "§4.2", "heading": "CPI Adjustment",
+            "text": "Base Rent shall be adjusted annually on each anniversary of the Rent Commencement Date in an amount equal to the percentage change in the Consumer Price Index for All Urban Consumers, San Diego-Carlsbad metropolitan area, published by the Bureau of Labor Statistics, over the twelve (12) month period ending sixty (60) days prior to the applicable adjustment date. No annual CPI adjustment shall exceed four percent (4%) or be less than one percent (1%). Adjusted rent shall be confirmed in writing by Landlord within thirty (30) days of each adjustment date."
+          },
+          {
+            "id": "clause_039", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall procure and continuously maintain at Tenant's expense: (a) commercial general liability insurance, with per-occurrence limits of $2,000,000 and aggregate limits of $4,000,000; (b) product liability insurance of not less than $3,000,000 per claim, given Tenant's cosmetics retail and in-store application services; (c) all-risk property insurance at replacement cost covering Tenant's trade fixtures, merchandise, and leasehold improvements; and (d) workers' compensation as required under California law. All policies shall name Landlord, Landlord's property manager, and Landlord's lender as additional insureds. Certificates shall be delivered to Landlord no later than the Commencement Date and on each renewal date."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_010",
+    "property": {
+      "name": "Gateway Center",
+      "address": "5000 Belt Line Road, Dallas, TX 75254",
+      "anchorTenant": "Target"
+    },
+    "tenant": { "name": "Orangetheory Fitness Inc.", "industry": "fitness", "creditRating": "NR" },
+    "term": { "commencement": "2019-07-15", "expiration": "2027-07-14", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 24.50, "escalationType": "fixed", "escalationRate": 0.025 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-07-31", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_014", "type": "lease",
+        "title": "Retail Lease — Orangetheory Fitness Inc. at Gateway Center",
+        "pageCount": 46,
+        "clauses": [
+          {
+            "id": "clause_040", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 3,800 rentable square feet, the sum of $24.50 per rentable square foot per annum, payable in equal monthly installments of $7,758.33 in advance on the first day of each calendar month during the Term. Base Rent is subject to the escalation schedule set forth in Section 4.2."
+          },
+          {
+            "id": "clause_041", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first day of each Lease Year following Lease Year 1, Base Rent shall increase by two and one-half percent (2.5%) over the Base Rent payable in the immediately preceding Lease Year. Such escalations are cumulative and compounding and shall occur automatically without further notice. The parties acknowledge that Base Rent in Lease Year 8 (the final Lease Year) shall be approximately $29.44 per rentable square foot per annum."
+          },
+          {
+            "id": "clause_042", "section": "§11.1", "heading": "Required Insurance Coverages",
+            "text": "Tenant shall maintain throughout the Term, at Tenant's sole expense: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 aggregate, specifically endorsed for fitness center and group exercise operations including participant injury; (b) property insurance at replacement cost covering Tenant's cardio and rowing equipment and leasehold improvements; and (c) workers' compensation and employer's liability as required by Texas law. Landlord, Landlord's property manager, and Landlord's lender shall be named additional insureds."
+          }
+        ]
+      },
+      {
+        "id": "doc_015", "type": "rea",
+        "title": "Reciprocal Easement Agreement — Gateway Center",
+        "pageCount": 18,
+        "clauses": [
+          {
+            "id": "clause_043", "section": "§2.1", "heading": "Shared Parking and Access",
+            "text": "Owner of Parcel A (the anchor parcel) hereby grants Owner of Parcel B (the in-line retail parcel) and their respective tenants, customers, and invitees a perpetual, non-exclusive easement for access, ingress, egress, and parking over the Common Parking Area as delineated on Exhibit A-2 hereto. This easement shall run with the land and be binding upon all successors and assigns of each parcel owner. Parking shall be shared on an unreserved, first-come, first-served basis, except for spaces designated for handicapped use pursuant to applicable law."
+          },
+          {
+            "id": "clause_044", "section": "§2.2", "heading": "Common Area Maintenance Cost Sharing",
+            "text": "All costs of maintaining, repairing, and replacing Common Area improvements (including parking lot resurfacing, exterior lighting, and landscaping) that benefit both parcels shall be allocated fifty-five percent (55%) to the anchor parcel and forty-five percent (45%) to the in-line retail parcel, based on relative gross leasable area. Each party shall maintain a commercially reasonable maintenance program consistent with a first-class retail shopping center in the Dallas-Fort Worth metropolitan area. Annual reconciliation statements shall be provided within sixty (60) days following the close of each calendar year."
+          },
+          {
+            "id": "clause_045", "section": "§3.1", "heading": "Pylon and Monument Signage",
+            "text": "Pylon signage at the primary ingress points to the Shopping Center shall be maintained by the anchor parcel owner at anchor parcel owner's expense. In-line retail tenants occupying more than 3,000 rentable square feet shall be entitled to one (1) panel position on each pylon sign serving the in-line retail building, subject to applicable zoning and sign code restrictions. Tenant panel positions shall be allocated by size, with larger tenants receiving priority, and shall be subject to the Landlord's signage criteria in effect from time to time."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_011",
+    "property": {
+      "name": "Summit Village",
+      "address": "10117 SE Sunnyside Road, Portland, OR 97015",
+      "anchorTenant": "CVS"
+    },
+    "tenant": { "name": "Pacific Dental Services LLC", "industry": "medical", "creditRating": "NR" },
+    "term": { "commencement": "2017-04-01", "expiration": "2026-03-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 32.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-02-28", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_016", "type": "lease",
+        "title": "Medical Office Lease — Pacific Dental Services LLC at Summit Village",
+        "pageCount": 49,
+        "clauses": [
+          {
+            "id": "clause_046", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,800 rentable square feet configured for dental office use, the sum of $32.00 per rentable square foot per annum, payable in equal monthly installments of $7,466.67 in advance on the first day of each calendar month during the Term. Base Rent is subject to annual escalation as set forth in Section 4.2. This Lease expires March 31, 2026; the current certificate of insurance expires February 28, 2026 and has not been renewed."
+          },
+          {
+            "id": "clause_047", "section": "§4.2", "heading": "Rent Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each anniversary thereafter, Base Rent shall increase by two percent (2%) over the Base Rent in effect for the immediately preceding Lease Year. Such increases are cumulative and compounding. Base Rent in the final Lease Year (April 1, 2025 – March 31, 2026) shall be $37.85 per rentable square foot per annum ($8,830.00 per month), reflecting nine (9) annual escalations from the initial rate of $32.00."
+          },
+          {
+            "id": "clause_048", "section": "§11.1", "heading": "Insurance — Medical Office Use",
+            "text": "Tenant shall, at Tenant's sole cost and expense, maintain throughout the Term: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 aggregate; (b) professional liability (malpractice) insurance for all dental practitioners operating in the Premises with limits of not less than $1,000,000 per occurrence and $3,000,000 aggregate; (c) property insurance at replacement cost covering dental equipment, cabinetry, and Tenant's leasehold improvements; and (d) workers' compensation as required under Oregon law. All liability policies shall name Landlord as additional insured."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_012",
+    "property": {
+      "name": "Orchard Park Center",
+      "address": "3560 N. High Street, Columbus, OH 43214",
+      "anchorTenant": "CVS"
+    },
+    "tenant": { "name": "H&R Block Inc.", "industry": "financial services", "creditRating": "BB+" },
+    "term": { "commencement": "2020-01-01", "expiration": "2027-12-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 22.00, "escalationType": "fixed", "escalationRate": 0.015 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-08-31", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_017", "type": "lease",
+        "title": "Retail Lease — H&R Block Inc. at Orchard Park Center",
+        "pageCount": 38,
+        "clauses": [
+          {
+            "id": "clause_049", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,800 rentable square feet, the sum of $22.00 per rentable square foot per annum, payable in equal monthly installments of $3,300.00 in advance on the first day of each calendar month during the Term. Payment shall be made without offset, deduction, or prior demand. Base Rent shall be subject to annual increases as provided in Section 4.2."
+          },
+          {
+            "id": "clause_050", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective January 1 of each calendar year following the first full calendar year of the Term, Base Rent shall increase by one and one-half percent (1.5%) over the Base Rent in effect during the immediately preceding calendar year. Such increases shall be cumulative. The parties acknowledge that the relatively modest escalation rate reflects Tenant's seasonal operational model, with peak occupancy intensity during the January–April tax filing season."
+          },
+          {
+            "id": "clause_051", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain at Tenant's cost throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) errors and omissions (professional liability) insurance of not less than $1,000,000 per claim covering tax preparation services; (c) property insurance at replacement cost for Tenant's equipment and leasehold improvements; and (d) workers' compensation as required under Ohio law. All policies shall name Landlord as additional insured. Certificates shall be renewed annually and delivered to Landlord no later than January 1 of each year."
+          }
+        ]
+      },
+      {
+        "id": "doc_018", "type": "amendment",
+        "title": "First Amendment to Retail Lease — H&R Block Inc.",
+        "pageCount": 4,
+        "clauses": [
+          {
+            "id": "clause_052", "section": "§1", "heading": "Permitted Hours of Operation",
+            "text": "Section 7.2 of the Lease is hereby amended to permit Tenant to operate extended hours during the period January 15 through April 18 of each calendar year (the 'Tax Season Period'). During the Tax Season Period, Tenant may operate the Premises from 8:00 a.m. to 10:00 p.m., Monday through Saturday, and 10:00 a.m. to 6:00 p.m. on Sundays. Standard operating hours per the original Lease shall apply at all other times during the Term."
+          },
+          {
+            "id": "clause_053", "section": "§2", "heading": "Exterior Signage — Seasonal Campaign",
+            "text": "Notwithstanding Section 13.1 of the Lease, Tenant is hereby permitted to install temporary window graphics and exterior banners not exceeding forty (40) square feet in total area during the Tax Season Period, provided such signage complies with applicable municipal sign codes and Landlord's signage criteria. All temporary signage shall be removed by April 30 of each calendar year. Permanent signage changes shall continue to require Landlord's prior written approval as provided in the Lease."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_013",
+    "property": {
+      "name": "Bayshore Commons",
+      "address": "5601 N. Florida Avenue, Tampa, FL 33604",
+      "anchorTenant": "CVS"
+    },
+    "tenant": { "name": "European Wax Center Inc.", "industry": "personal care", "creditRating": "NR" },
+    "term": { "commencement": "2021-09-01", "expiration": "2029-08-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 28.50, "escalationType": "stepped" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-11-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_019", "type": "lease",
+        "title": "Retail Lease — European Wax Center Inc. at Bayshore Commons",
+        "pageCount": 40,
+        "clauses": [
+          {
+            "id": "clause_054", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,400 rentable square feet, the sums per rentable square foot set forth in the stepped rent schedule in Section 4.2, payable in equal monthly installments in advance on the first day of each calendar month, without offset or deduction."
+          },
+          {
+            "id": "clause_055", "section": "§4.2", "heading": "Stepped Rent Schedule",
+            "text": "Base Rent shall be payable during the following periods at the rates set forth below: (i) Lease Years 1 through 4 (September 1, 2021 – August 31, 2025): $25.00 per rentable square foot per annum ($2,916.67 per month); (ii) Lease Years 5 through 8 (September 1, 2025 – August 31, 2029): $28.50 per rentable square foot per annum ($3,325.00 per month). Each rent step shall be self-effectuating without further notice or amendment."
+          },
+          {
+            "id": "clause_056", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, specifically covering waxing and personal care service operations; (b) professional liability insurance of not less than $1,000,000 per claim; (c) property insurance at replacement cost covering Tenant's waxing equipment, retail product inventory, and leasehold improvements; and (d) workers' compensation as required under Florida law. Landlord and any mortgagee shall be named as additional insureds on all liability policies."
+          },
+          {
+            "id": "clause_057", "section": "§22.1", "heading": "Renewal Option",
+            "text": "Provided Tenant is not in default beyond applicable notice and cure periods, Tenant shall have one (1) option to renew this Lease for one additional five (5) year period, exercisable by written notice delivered to Landlord no later than nine (9) months prior to the expiration of the initial Term. Base Rent during the Renewal Term shall be the then-prevailing fair market rental rate for comparable personal-care retail space in the North Tampa submarket, but in no event less than the Base Rent in effect in the final Lease Year of the initial Term."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_014",
+    "property": {
+      "name": "Creekside Village",
+      "address": "4401 W. William Cannon Drive, Austin, TX 78749",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "Great Clips Inc.", "industry": "personal care", "creditRating": "NR" },
+    "term": { "commencement": "2016-01-15", "expiration": "2026-01-14", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 19.50, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": false, "expirationDate": null, "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_020", "type": "lease",
+        "title": "Retail Lease — Great Clips Inc. at Creekside Village",
+        "pageCount": 36,
+        "clauses": [
+          {
+            "id": "clause_058", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,200 rentable square feet, the sum of $19.50 per rentable square foot per annum, payable in equal monthly installments of $1,950.00 in advance on the first day of each calendar month during the Term. This Lease expires January 14, 2026. No certificate of insurance is currently on file. Tenant is required under Section 11.1 to maintain $2,000,000 per occurrence / $4,000,000 aggregate commercial general liability coverage throughout the Term."
+          },
+          {
+            "id": "clause_059", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each anniversary thereafter, Base Rent shall increase by two percent (2%) over the Base Rent payable in the immediately preceding Lease Year. Such increases are cumulative and compounding. Base Rent in Lease Year 10 (January 15, 2025 – January 14, 2026) shall be approximately $23.77 per rentable square foot per annum ($2,377.00 per month)."
+          },
+          {
+            "id": "clause_060", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall, at Tenant's sole expense, maintain throughout the Term: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 aggregate, covering all personal care services rendered in the Premises; (b) property insurance at replacement cost for Tenant's salon equipment and leasehold improvements; and (c) workers' compensation as required under Texas law. Tenant shall deliver certificates of insurance to Landlord prior to the Commencement Date and within ten (10) days of each renewal. NOTICE: No current certificate of insurance on file as of the date of this review."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_015",
+    "property": {
+      "name": "Pinecrest Commons",
+      "address": "8712 Pineville-Matthews Road, Charlotte, NC 28226",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "Massage Envy Franchising LLC", "industry": "wellness", "creditRating": "NR" },
+    "term": { "commencement": "2016-02-01", "expiration": "2026-01-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 21.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": false, "expirationDate": null, "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_021", "type": "lease",
+        "title": "Retail Lease — Massage Envy Franchising LLC at Pinecrest Commons",
+        "pageCount": 38,
+        "clauses": [
+          {
+            "id": "clause_061", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,400 rentable square feet, the sum of $21.00 per rentable square foot per annum, payable in equal monthly installments of $4,200.00 in advance on the first day of each calendar month. This Lease expires January 31, 2026. Landlord records reflect no current certificate of insurance on file; Tenant's prior certificate expired April 30, 2025."
+          },
+          {
+            "id": "clause_062", "section": "§4.2", "heading": "Rent Escalation",
+            "text": "Base Rent shall increase by two percent (2%) on the first day of each Lease Year following Lease Year 1, applied cumulatively and compounding. Base Rent in the final Lease Year (February 1, 2025 – January 31, 2026) shall be approximately $25.58 per rentable square foot per annum ($5,116.00 per month)."
+          },
+          {
+            "id": "clause_063", "section": "§11.1", "heading": "Required Insurance",
+            "text": "Throughout the Term, Tenant shall procure and maintain at Tenant's expense: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 in the aggregate, covering massage therapy and wellness services; (b) professional liability insurance of not less than $1,000,000 per claim; (c) all-risk property insurance at replacement cost for Tenant's massage tables, equipment, and leasehold improvements; and (d) workers' compensation as required under North Carolina law. Certificates shall be delivered to Landlord prior to the Commencement Date and within ten (10) days of each annual renewal."
+          }
+        ]
+      },
+      {
+        "id": "doc_022", "type": "amendment",
+        "title": "First Amendment to Retail Lease — Massage Envy Franchising LLC",
+        "pageCount": 4,
+        "clauses": [
+          {
+            "id": "clause_064", "section": "§1", "heading": "Operating Hours Modification",
+            "text": "Section 7.3 of the Lease is hereby amended to allow Tenant to operate the Premises from 8:00 a.m. to 10:00 p.m., seven (7) days per week, in lieu of the hours specified in the original Lease. Tenant shall comply with all applicable zoning requirements and shall not generate noise, odors, or waste that materially adversely affects neighboring tenants. Landlord's consent to extended operating hours shall not constitute a waiver of any other provision of the Lease."
+          },
+          {
+            "id": "clause_065", "section": "§2", "heading": "Sublet to Franchise Operator",
+            "text": "Landlord hereby consents to a sublease of the Premises to an approved Massage Envy franchisee, provided that (i) the franchisee operates under the Massage Envy brand and system, (ii) Massage Envy Franchising LLC remains primarily liable under the Lease without release or diminution of its obligations, and (iii) Tenant delivers to Landlord a fully executed copy of the sublease agreement within thirty (30) days of execution. Landlord's consent herein shall not be construed as consent to any further subletting or assignment."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_016",
+    "property": {
+      "name": "Foxwood Plaza",
+      "address": "2200 21st Avenue South, Nashville, TN 37212",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "State Farm Mutual Automobile Insurance Co.", "industry": "financial services", "creditRating": "AA" },
+    "term": { "commencement": "2016-04-01", "expiration": "2026-03-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 27.50, "escalationType": "fixed", "escalationRate": 0.025 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": false, "expirationDate": null, "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_023", "type": "lease",
+        "title": "Office Lease — State Farm Mutual Automobile Insurance Co. at Foxwood Plaza",
+        "pageCount": 42,
+        "clauses": [
+          {
+            "id": "clause_066", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,600 rentable square feet, the sum of $27.50 per rentable square foot per annum, payable in equal monthly installments of $3,666.67 in advance on the first day of each calendar month. This Lease expires March 31, 2026. Tenant's certificate of insurance lapsed December 31, 2024 and has not been renewed. Tenant's required coverage per Section 11.1 remains $2,000,000 per occurrence."
+          },
+          {
+            "id": "clause_067", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by two and one-half percent (2.5%) on the first day of each Lease Year following Lease Year 1, cumulative and compounding. The parties acknowledge that, as of Lease Year 10 (April 1, 2025 – March 31, 2026), Base Rent shall be approximately $35.16 per rentable square foot per annum ($4,688.00 per month), reflecting all prior escalation steps from the initial rate of $27.50."
+          },
+          {
+            "id": "clause_068", "section": "§11.1", "heading": "Insurance Requirements",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 in the aggregate; (b) property insurance at replacement cost covering Tenant's office furnishings, equipment, and leasehold improvements; and (c) workers' compensation as required under Tennessee law. All policies shall name Landlord as additional insured. Certificates shall be delivered prior to Commencement and within ten (10) days of each renewal. NOTE: No current certificate of insurance on file."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_017",
+    "property": {
+      "name": "Maple Ridge Center",
+      "address": "1100 E. 3900 S., Salt Lake City, UT 84124",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "Aspen Dental Management Inc.", "industry": "medical", "creditRating": "NR" },
+    "term": { "commencement": "2021-04-01", "expiration": "2026-03-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 34.00, "escalationType": "cpi" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": false, "expirationDate": null, "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_024", "type": "lease",
+        "title": "Medical Office Lease — Aspen Dental Management Inc. at Maple Ridge Center",
+        "pageCount": 47,
+        "clauses": [
+          {
+            "id": "clause_069", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 3,200 rentable square feet configured for dental office use, the sum of $34.00 per rentable square foot per annum, payable in equal monthly installments of $9,066.67 in advance on the first day of each calendar month. This Lease expires March 31, 2026. Landlord's records reflect no certificate of insurance on file. Base Rent is subject to annual CPI adjustment as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_070", "section": "§4.2", "heading": "CPI Rent Adjustment",
+            "text": "Base Rent shall be adjusted annually on each anniversary of the Rent Commencement Date by the percentage change in the Consumer Price Index for All Urban Consumers, Salt Lake City-Provo-Orem combined statistical area, as reported by the Bureau of Labor Statistics for the twelve (12) month period ending sixty (60) days prior to the applicable adjustment date. Annual adjustments shall not exceed five percent (5%) nor be less than one and one-half percent (1.5%). Adjusted rent shall be confirmed by Landlord's written notice to Tenant within thirty (30) days of each adjustment date."
+          },
+          {
+            "id": "clause_071", "section": "§11.1", "heading": "Insurance — Dental Office Operations",
+            "text": "Tenant shall, at Tenant's sole cost and expense, maintain throughout the Term: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 in the aggregate; (b) dental malpractice (professional liability) insurance for all licensed practitioners operating in the Premises, with limits of not less than $1,000,000 per occurrence and $3,000,000 aggregate; (c) property insurance at replacement cost for all dental equipment, radiographic imaging systems, and cabinetry; and (d) workers' compensation as required under Utah law. Landlord shall be named additional insured on all CGL policies."
+          },
+          {
+            "id": "clause_072", "section": "§22.1", "heading": "Renewal Options",
+            "text": "Tenant shall have two (2) consecutive options to renew this Lease for periods of five (5) years each, provided Tenant is not in default and delivers written notice of renewal to Landlord no later than twelve (12) months prior to expiration of the then-current Term. Base Rent at the start of each Renewal Term shall be negotiated in good faith; if the parties fail to agree within sixty (60) days of Landlord's receipt of Tenant's renewal notice, the renewal option shall be deemed waived and the Lease shall expire at the end of the then-current Term."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_018",
+    "property": {
+      "name": "Ironwood Marketplace",
+      "address": "9375 E. Shea Boulevard, Scottsdale, AZ 85260",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "Burn Boot Camp LLC", "industry": "fitness", "creditRating": "NR" },
+    "term": { "commencement": "2016-02-15", "expiration": "2026-02-14", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 25.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": false, "expirationDate": null, "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_025", "type": "lease",
+        "title": "Retail Lease — Burn Boot Camp LLC at Ironwood Marketplace",
+        "pageCount": 37,
+        "clauses": [
+          {
+            "id": "clause_073", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 4,500 rentable square feet, the sum of $25.00 per rentable square foot per annum, payable in equal monthly installments of $9,375.00 in advance on the first day of each calendar month. This Lease expires February 14, 2026. Tenant has not provided a certificate of insurance for Lease Year 10. The required coverage per Section 11.1 is $2,000,000 per occurrence commercial general liability."
+          },
+          {
+            "id": "clause_074", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each anniversary thereafter, Base Rent shall increase by two percent (2%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. Base Rent in the final Lease Year shall be approximately $30.48 per rentable square foot per annum ($11,430.00 per month)."
+          },
+          {
+            "id": "clause_075", "section": "§11.1", "heading": "Insurance — Fitness Studio Operations",
+            "text": "Tenant shall, at Tenant's sole cost, maintain throughout the Term: (a) commercial general liability insurance with limits of not less than $2,000,000 per occurrence and $4,000,000 aggregate, specifically endorsed to cover participant injury claims arising from high-intensity group fitness training; (b) property insurance at replacement cost covering Tenant's fitness equipment, sound systems, and leasehold improvements; and (c) workers' compensation and employer's liability as required under Arizona law. Landlord and any mortgagee shall be named additional insureds. Certificates must be delivered to Landlord ten (10) days prior to the Commencement Date and within ten (10) days of each annual renewal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_019",
+    "property": {
+      "name": "Willowbrook Center",
+      "address": "2301 Fair Oaks Boulevard, Sacramento, CA 95825",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "CorePower Yoga LLC", "industry": "fitness", "creditRating": "NR" },
+    "term": { "commencement": "2020-06-01", "expiration": "2028-05-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 31.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": true, "requiredTenants": ["Whole Foods"], "status": "at_risk" },
+    "coi": { "onFile": true, "expirationDate": "2026-08-31", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_026", "type": "lease",
+        "title": "Retail Lease — CorePower Yoga LLC at Willowbrook Center",
+        "pageCount": 48,
+        "clauses": [
+          {
+            "id": "clause_076", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 4,000 rentable square feet, the sum of $31.00 per rentable square foot per annum, payable in equal monthly installments of $10,333.33 in advance on the first day of each calendar month during the Term. Base Rent is subject to annual escalation as provided in Section 4.2 and is conditioned on the Co-Tenancy Condition set forth in Section 7.1."
+          },
+          {
+            "id": "clause_077", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each Lease Year anniversary thereafter, Base Rent shall increase by three percent (3%) over the Base Rent payable in the immediately preceding Lease Year. Such escalations are cumulative and compounding and shall not be suspended or reduced during any period in which Tenant is paying Substitute Rent under Section 7.2."
+          },
+          {
+            "id": "clause_078", "section": "§7.1", "heading": "Co-Tenancy Condition",
+            "text": "Tenant's obligation to pay Base Rent at the full rate set forth in Section 4.1 is expressly conditioned upon Whole Foods Market operating a fully open retail grocery store of no less than 35,000 square feet at or within the Willowbrook Center project (the 'Co-Tenancy Condition'). As of the date of this Lease review, Whole Foods Market has announced its intention to vacate the anchor space at Willowbrook Center upon lease expiration, and has not committed to renewal. No written renewal commitment or letter of intent has been executed."
+          },
+          {
+            "id": "clause_079", "section": "§7.2", "heading": "Substitute Rent and Termination Right",
+            "text": "In the event the Co-Tenancy Condition is not satisfied for a continuous period of ninety (90) or more days, Tenant shall have the right, exercisable by written notice to Landlord, to pay Substitute Rent equal to the lesser of (i) the then-current monthly Base Rent, or (ii) six percent (6%) of Tenant's Gross Sales for each month during which the Co-Tenancy Condition is not satisfied, in lieu of Base Rent. If the Co-Tenancy Condition remains unsatisfied for an additional one hundred eighty (180) consecutive days following Tenant's election to pay Substitute Rent, Tenant may terminate this Lease upon sixty (60) days' written notice, with no further liability to either party."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_020",
+    "property": {
+      "name": "Ridgeview Crossing",
+      "address": "6620 Poplar Avenue, Memphis, TN 38138",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "Tuesday Morning Corp.", "industry": "retail", "creditRating": "NR" },
+    "term": { "commencement": "2018-11-01", "expiration": "2026-10-31", "renewalOptions": 0 },
+    "rent": { "baseRentPsf": 16.00, "escalationType": "none" },
+    "cotenancy": { "hasCotenancy": true, "requiredTenants": ["Target"], "status": "violated" },
+    "coi": { "onFile": true, "expirationDate": "2026-12-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_027", "type": "lease",
+        "title": "Retail Lease — Tuesday Morning Corp. at Ridgeview Crossing",
+        "pageCount": 41,
+        "clauses": [
+          {
+            "id": "clause_080", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 12,000 rentable square feet, the fixed sum of $16.00 per rentable square foot per annum, payable in equal monthly installments of $16,000.00 in advance on the first day of each calendar month throughout the Term. Base Rent shall not be subject to escalation during the Term. Tenant is currently paying Substitute Rent pursuant to Section 7.2 following Target Corporation's closure of its anchor store at this location in March 2025."
+          },
+          {
+            "id": "clause_081", "section": "§7.1", "heading": "Co-Tenancy Condition",
+            "text": "Tenant's obligation to pay Base Rent at the full rate specified in Section 4.1 is conditioned upon Target Corporation operating a fully open retail store at the Shopping Center (the 'Co-Tenancy Condition'). Target Corporation closed its anchor location at Ridgeview Crossing effective March 15, 2025, and the space has remained vacant since that date. The Co-Tenancy Condition has been violated for more than ninety (90) consecutive days as of the date of this review, triggering Tenant's right to pay Substitute Rent under Section 7.2."
+          },
+          {
+            "id": "clause_082", "section": "§7.2", "heading": "Substitute Rent and Termination Right",
+            "text": "Following any violation of the Co-Tenancy Condition under Section 7.1 lasting ninety (90) or more consecutive days, Tenant shall have the right to pay Substitute Rent equal to five percent (5%) of Tenant's monthly Gross Sales in lieu of Base Rent, exercisable on thirty (30) days' written notice to Landlord. If the Co-Tenancy Condition remains unsatisfied for an additional one hundred eighty (180) days after Tenant's election of Substitute Rent, Tenant may terminate this Lease upon sixty (60) days' written notice. Tenant exercised the Substitute Rent election as of June 15, 2025; the termination window opens December 15, 2025."
+          }
+        ]
+      },
+      {
+        "id": "doc_028", "type": "amendment",
+        "title": "First Amendment to Retail Lease — Tuesday Morning Corp.",
+        "pageCount": 5,
+        "clauses": [
+          {
+            "id": "clause_083", "section": "§1", "heading": "Acknowledgment of Co-Tenancy Event",
+            "text": "The parties acknowledge that Target Corporation permanently closed its anchor retail store at Ridgeview Crossing as of March 15, 2025, constituting a Co-Tenancy Condition violation under Section 7.1 of the Lease. Pursuant to Tenant's written notice dated June 15, 2025, Tenant elected to pay Substitute Rent under Section 7.2 commencing July 1, 2025. Landlord and Tenant agree that the Substitute Rent election is valid and properly exercised, without prejudice to Tenant's termination right if the Co-Tenancy Condition remains unsatisfied through December 14, 2025."
+          },
+          {
+            "id": "clause_084", "section": "§2", "heading": "Replacement Anchor Solicitation",
+            "text": "Landlord shall use commercially reasonable efforts to identify, negotiate, and execute a lease with a replacement anchor tenant of comparable size and customer traffic profile to Target Corporation within eighteen (18) months following the vacation of the anchor space. Landlord shall provide Tenant with quarterly written status updates regarding anchor replacement leasing activity. Landlord's obligation under this Section does not limit Tenant's right to terminate as provided in Section 7.2 of the Lease."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_021",
+    "property": {
+      "name": "Lakeside Town Center",
+      "address": "4200 Millenia Boulevard, Orlando, FL 32839",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "HomeGoods Inc.", "industry": "retail", "creditRating": "A+" },
+    "term": { "commencement": "2019-03-01", "expiration": "2027-02-28", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 24.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": true, "requiredTenants": ["Whole Foods"], "status": "at_risk" },
+    "coi": { "onFile": true, "expirationDate": "2026-04-30", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_029", "type": "lease",
+        "title": "Retail Lease — HomeGoods Inc. at Lakeside Town Center",
+        "pageCount": 55,
+        "clauses": [
+          {
+            "id": "clause_085", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 22,000 rentable square feet, the sum of $24.00 per rentable square foot per annum, payable in equal monthly installments of $44,000.00 in advance on the first day of each calendar month during the Term. Base Rent shall be subject to annual escalation as set forth in Section 4.2 and is conditioned upon the Co-Tenancy Condition set forth in Section 7.1."
+          },
+          {
+            "id": "clause_086", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by two percent (2%) on the first day of each Lease Year following Lease Year 1, cumulative and compounding. Base Rent in Lease Year 8 (the final Lease Year, March 1, 2026 – February 28, 2027) shall be approximately $27.92 per rentable square foot per annum ($51,173.33 per month), reflecting seven annual escalation steps from the initial rate."
+          },
+          {
+            "id": "clause_087", "section": "§7.1", "heading": "Co-Tenancy Condition — Whole Foods",
+            "text": "Tenant's obligation to pay full Base Rent under Section 4.1 is conditioned upon Whole Foods Market continuously operating an open retail grocery store of no less than 40,000 square feet at the Shopping Center (the 'Co-Tenancy Condition'). Landlord has advised Tenant that Whole Foods Market is currently evaluating whether to renew its anchor lease at this location, which expires September 30, 2026. No written renewal commitment has been executed as of the date of this review."
+          },
+          {
+            "id": "clause_088", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall procure and maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering all retail operations in the Premises; (b) all-risk property insurance at replacement cost for Tenant's merchandise, fixtures, and leasehold improvements; and (c) workers' compensation as required under Florida law. All policies shall name Landlord and Landlord's lender as additional insureds. Certificates shall be delivered to Landlord on or before the Commencement Date and within ten (10) days of each annual renewal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_022",
+    "property": {
+      "name": "Stonegate Plaza",
+      "address": "8700 State Line Road, Kansas City, MO 64114",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "Regus Management Group LLC", "industry": "coworking / office services", "creditRating": "BBB-" },
+    "term": { "commencement": "2020-07-01", "expiration": "2028-06-30", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 22.50, "escalationType": "fixed", "escalationRate": 0.025 },
+    "cotenancy": { "hasCotenancy": true, "requiredTenants": ["CVS"], "status": "at_risk" },
+    "coi": { "onFile": true, "expirationDate": "2026-06-30", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_030", "type": "lease",
+        "title": "Office Lease — Regus Management Group LLC at Stonegate Plaza",
+        "pageCount": 53,
+        "clauses": [
+          {
+            "id": "clause_089", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 8,500 rentable square feet, the sum of $22.50 per rentable square foot per annum, payable in equal monthly installments of $15,937.50 in advance on the first day of each calendar month. Base Rent is subject to annual escalation under Section 4.2 and to the Co-Tenancy Condition provisions of Section 7.1."
+          },
+          {
+            "id": "clause_090", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by two and one-half percent (2.5%) on the first day of each Lease Year following Lease Year 1, cumulative and compounding. Base Rent in Lease Year 8 (July 1, 2027 – June 30, 2028) shall be approximately $27.37 per rentable square foot per annum ($19,387.08 per month), reflecting seven escalation steps from the initial rate of $22.50."
+          },
+          {
+            "id": "clause_091", "section": "§7.1", "heading": "Co-Tenancy Condition — CVS",
+            "text": "Tenant's obligation to pay Base Rent at the full rate set forth in Section 4.1 is conditioned upon CVS Pharmacy operating a fully open pharmacy and retail store at or immediately adjacent to Stonegate Plaza (the 'Co-Tenancy Condition'). Tenant entered into this Lease in material reliance on the pharmacy and drive-through traffic generated by the CVS location anchoring this retail node. CVS has announced a planned store closure at this location in connection with its national footprint rationalization program, and no replacement pharmacy anchor has been identified."
+          },
+          {
+            "id": "clause_092", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole expense: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering Tenant's coworking and office services operations and member access; (b) property insurance at replacement cost covering Tenant's workstations, technology infrastructure, and leasehold improvements; (c) cyber liability insurance of not less than $1,000,000 per occurrence given Tenant's shared network and data operations; and (d) workers' compensation as required under Missouri law. Landlord and any mortgagee shall be named additional insureds on all CGL policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_023",
+    "property": {
+      "name": "Copperfield Commons",
+      "address": "7602 Highway 6 North, Houston, TX 77095",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "GNC Holdings LLC", "industry": "retail / health", "creditRating": "NR" },
+    "term": { "commencement": "2019-08-01", "expiration": "2027-07-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 20.50, "escalationType": "stepped" },
+    "cotenancy": { "hasCotenancy": true, "requiredTenants": ["Target"], "status": "at_risk" },
+    "coi": { "onFile": true, "expirationDate": "2026-09-30", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_031", "type": "lease",
+        "title": "Retail Lease — GNC Holdings LLC at Copperfield Commons",
+        "pageCount": 40,
+        "clauses": [
+          {
+            "id": "clause_093", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,600 rentable square feet, the sum per rentable square foot set forth in the stepped schedule in Section 4.2, payable in equal monthly installments in advance on the first day of each calendar month. Base Rent is conditioned on the Co-Tenancy Condition under Section 7.1."
+          },
+          {
+            "id": "clause_094", "section": "§4.2", "heading": "Stepped Rent Schedule",
+            "text": "Base Rent shall be payable as follows: (i) Lease Years 1 through 4 (August 1, 2019 – July 31, 2023): $18.00 per rentable square foot per annum ($2,400.00 per month); (ii) Lease Years 5 through 8 (August 1, 2023 – July 31, 2027): $20.50 per rentable square foot per annum ($2,733.33 per month). Each step increase is self-effectuating without further notice or amendment by the parties."
+          },
+          {
+            "id": "clause_095", "section": "§7.1", "heading": "Co-Tenancy Condition — Target",
+            "text": "Tenant's obligation to pay Base Rent at the full rate is conditioned upon Target Corporation operating an open retail store of no less than 100,000 square feet at or within the Copperfield Commons project (the 'Co-Tenancy Condition'). Tenant selected this location specifically due to the high-volume foot traffic generated by the Target anchor. Target has indicated it is evaluating closure of the Copperfield location in connection with a broader store portfolio review; no formal closure notice has been issued as of the date of this review."
+          },
+          {
+            "id": "clause_096", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall at Tenant's sole cost maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering retail supplement and nutrition product sales; (b) product liability insurance of not less than $2,000,000 per occurrence; (c) property insurance at replacement cost covering Tenant's inventory, fixtures, and leasehold improvements; and (d) workers' compensation as required under Texas law. All policies shall name Landlord as additional insured."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_024",
+    "property": {
+      "name": "Crossroads Mall",
+      "address": "6020 E. 82nd Street, Indianapolis, IN 46250",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "Foot Locker Inc.", "industry": "retail", "creditRating": "BBB" },
+    "term": { "commencement": "2019-05-01", "expiration": "2027-04-30", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 28.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-06-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_032", "type": "lease",
+        "title": "Retail Lease — Foot Locker Inc. at Crossroads Mall",
+        "pageCount": 43,
+        "clauses": [
+          {
+            "id": "clause_097", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,200 rentable square feet, the sum of $28.00 per rentable square foot per annum, payable in equal monthly installments of $5,133.33 in advance on the first day of each calendar month during the Term. Base Rent shall be subject to annual escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_098", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by three percent (3%) on the first day of each Lease Year following Lease Year 1, applied cumulatively and compounding. The escalated rent schedule for the full Term is incorporated by reference as Exhibit C to this Lease and shall govern regardless of any change in occupancy levels in the Shopping Center."
+          },
+          {
+            "id": "clause_099", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) all-risk property insurance at replacement cost for Tenant's athletic footwear and apparel inventory, trade fixtures, and leasehold improvements; and (c) workers' compensation as required under Indiana law. All liability policies shall name Landlord and any recorded mortgagee as additional insureds. Certificates shall be delivered to Landlord prior to occupancy and within ten (10) days of each annual renewal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_025",
+    "property": {
+      "name": "Ridgecrest Village",
+      "address": "4321 Lassiter Mill Road, Raleigh, NC 27609",
+      "anchorTenant": null
+    },
+    "tenant": { "name": "Panda Restaurant Group Inc.", "industry": "food / restaurant", "creditRating": "NR" },
+    "term": { "commencement": "2020-10-01", "expiration": "2028-09-30", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 35.00, "escalationType": "fixed", "escalationRate": 0.025 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-11-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_033", "type": "lease",
+        "title": "Retail Lease — Panda Restaurant Group Inc. at Ridgecrest Village",
+        "pageCount": 44,
+        "clauses": [
+          {
+            "id": "clause_100", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,800 rentable square feet configured for restaurant use, the sum of $35.00 per rentable square foot per annum, payable in equal monthly installments of $8,166.67 in advance on the first day of each calendar month. Base Rent is subject to annual adjustment as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_101", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Rent Commencement Date and each anniversary thereafter, Base Rent shall increase by two and one-half percent (2.5%) over the Base Rent payable in the preceding Lease Year, cumulative and compounding. No annual adjustment shall result in a decrease in Base Rent from the immediately preceding Lease Year."
+          },
+          {
+            "id": "clause_102", "section": "§11.1", "heading": "Insurance — Restaurant Operations",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering restaurant and food service operations; (b) liquor liability insurance of not less than $1,000,000 per occurrence if Tenant serves alcohol; (c) property insurance at replacement cost covering restaurant equipment, kitchen fixtures, and Tenant's leasehold improvements; and (d) workers' compensation as required under North Carolina law. Landlord shall be named additional insured on all liability policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_026",
+    "property": { "name": "Maple Grove Center", "address": "8100 W. 36th Avenue, Denver, CO 80212", "anchorTenant": null },
+    "tenant": { "name": "Anytime Fitness LLC", "industry": "fitness", "creditRating": "NR" },
+    "term": { "commencement": "2021-01-15", "expiration": "2029-01-14", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 22.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-07-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_034", "type": "lease",
+        "title": "Retail Lease — Anytime Fitness LLC at Maple Grove Center",
+        "pageCount": 39,
+        "clauses": [
+          {
+            "id": "clause_103", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 4,800 rentable square feet, the sum of $22.00 per rentable square foot per annum, payable in equal monthly installments of $8,800.00 in advance on the first day of each calendar month during the Term. Base Rent is subject to annual escalation as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_104", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each anniversary thereafter, Base Rent shall increase by two percent (2%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. No annual adjustment shall result in a reduction of Base Rent from the prior Lease Year."
+          },
+          {
+            "id": "clause_105", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, endorsed to cover 24-hour fitness facility operations and member access without staff present; (b) property insurance at replacement cost for cardio and strength equipment; and (c) workers' compensation as required under Colorado law. Landlord shall be named additional insured on all CGL policies. Certificates shall be delivered to Landlord within ten (10) days of each annual renewal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_027",
+    "property": { "name": "Rosewood Plaza", "address": "2855 Stevens Creek Boulevard, San Jose, CA 95128", "anchorTenant": null },
+    "tenant": { "name": "Jamba Inc.", "industry": "food / restaurant", "creditRating": "NR" },
+    "term": { "commencement": "2018-03-01", "expiration": "2026-05-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 48.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-04-30", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_035", "type": "lease",
+        "title": "Retail Lease — Jamba Inc. at Rosewood Plaza",
+        "pageCount": 36,
+        "clauses": [
+          {
+            "id": "clause_106", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,500 rentable square feet, the sum of $48.00 per rentable square foot per annum, payable in equal monthly installments of $6,000.00 in advance on the first day of each calendar month. Base Rent is subject to escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_107", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by three percent (3%) on the first day of each Lease Year following Lease Year 1, cumulative and compounding. The parties acknowledge that Bay Area retail rental rates warranted a higher initial rate, with annual escalation reflective of prevailing CPI trends in the San Jose MSA."
+          },
+          {
+            "id": "clause_108", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering juice bar and food preparation operations; (b) property insurance at replacement cost for blending equipment, refrigeration units, and Tenant's leasehold improvements; and (c) workers' compensation as required under California law. Landlord, Landlord's property manager, and any mortgagee shall be named additional insureds."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_028",
+    "property": { "name": "Heritage Square", "address": "4600 Shelbyville Road, Louisville, KY 40207", "anchorTenant": null },
+    "tenant": { "name": "Jackson Hewitt Tax Service Inc.", "industry": "financial services", "creditRating": "NR" },
+    "term": { "commencement": "2020-08-01", "expiration": "2026-07-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 18.00, "escalationType": "fixed", "escalationRate": 0.015 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-09-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_036", "type": "lease",
+        "title": "Retail Lease — Jackson Hewitt Tax Service Inc. at Heritage Square",
+        "pageCount": 34,
+        "clauses": [
+          {
+            "id": "clause_109", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,200 rentable square feet, the sum of $18.00 per rentable square foot per annum, payable in equal monthly installments of $1,800.00 in advance on the first day of each calendar month. Base Rent is subject to annual escalation as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_110", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by one and one-half percent (1.5%) on the first day of each Lease Year following Lease Year 1, cumulative and compounding. The parties acknowledge that the modest escalation rate reflects Tenant's seasonal operating profile and the community-service nature of Tenant's tax preparation business."
+          },
+          {
+            "id": "clause_111", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) errors and omissions (professional liability) insurance of not less than $1,000,000 per claim covering tax preparation and financial advisory services; (c) property insurance at replacement cost for Tenant's office equipment and leasehold improvements; and (d) workers' compensation as required under Kentucky law. Landlord shall be named additional insured on all CGL policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_029",
+    "property": { "name": "Brookfield Center", "address": "17000 W. Bluemound Road, Brookfield, WI 53005", "anchorTenant": null },
+    "tenant": { "name": "Nothing Bundt Cakes LLC", "industry": "food / bakery", "creditRating": "NR" },
+    "term": { "commencement": "2021-06-01", "expiration": "2029-05-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 30.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-08-31", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_037", "type": "lease",
+        "title": "Retail Lease — Nothing Bundt Cakes LLC at Brookfield Center",
+        "pageCount": 37,
+        "clauses": [
+          {
+            "id": "clause_112", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,800 rentable square feet, the sum of $30.00 per rentable square foot per annum, payable in equal monthly installments of $4,500.00 in advance on the first day of each calendar month during the Term. Base Rent is subject to escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_113", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first day of each Lease Year following Lease Year 1, Base Rent shall increase by three percent (3%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. The escalated rent schedule is set forth in Exhibit C to this Lease."
+          },
+          {
+            "id": "clause_114", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering bakery operations and in-store customer sales; (b) property insurance at replacement cost for baking equipment, display cases, and leasehold improvements; and (c) workers' compensation as required under Wisconsin law. All liability policies shall name Landlord and any mortgagee as additional insureds."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_030",
+    "property": { "name": "Waterfront Commons", "address": "601 E. Pratt Street, Baltimore, MD 21202", "anchorTenant": null },
+    "tenant": { "name": "Club Pilates Franchise LLC", "industry": "fitness", "creditRating": "NR" },
+    "term": { "commencement": "2022-02-01", "expiration": "2030-01-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 33.00, "escalationType": "cpi" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-10-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_038", "type": "lease",
+        "title": "Retail Lease — Club Pilates Franchise LLC at Waterfront Commons",
+        "pageCount": 40,
+        "clauses": [
+          {
+            "id": "clause_115", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,200 rentable square feet, the sum of $33.00 per rentable square foot per annum, payable in equal monthly installments of $6,050.00 in advance on the first day of each calendar month. Base Rent is subject to annual CPI adjustment as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_116", "section": "§4.2", "heading": "CPI Adjustment",
+            "text": "Base Rent shall be adjusted annually on each anniversary of the Rent Commencement Date by the percentage change in the Consumer Price Index for All Urban Consumers, Baltimore-Columbia-Towson MSA, over the twelve (12) month period ending sixty (60) days prior to each adjustment date. Annual adjustments shall not exceed five percent (5%) nor be less than one and one-half percent (1.5%)."
+          },
+          {
+            "id": "clause_117", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, specifically endorsed for reformer and mat Pilates class operations; (b) professional liability coverage of not less than $1,000,000 per claim for certified Pilates instruction; (c) property insurance at replacement cost for reformer equipment and leasehold improvements; and (d) workers' compensation as required under Maryland law. Landlord shall be named additional insured."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_031",
+    "property": { "name": "Midtown Tower", "address": "1100 Peachtree Street NE, Atlanta, GA 30309", "anchorTenant": null },
+    "tenant": { "name": "Deloitte & Touche LLP", "industry": "professional services", "creditRating": "AA" },
+    "term": { "commencement": "2020-01-01", "expiration": "2027-12-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 42.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-06-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_039", "type": "lease",
+        "title": "Office Lease — Deloitte & Touche LLP at Midtown Tower",
+        "pageCount": 72,
+        "clauses": [
+          {
+            "id": "clause_118", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 15,000 rentable square feet on the 12th and 13th floors of the Building, the sum of $42.00 per rentable square foot per annum, payable in equal monthly installments of $52,500.00 in advance on the first day of each calendar month during the Term, without deduction, offset, or demand. Base Rent is subject to annual escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_119", "section": "§4.2", "heading": "Annual Rent Escalation",
+            "text": "Effective January 1 of each calendar year following the first full calendar year of the Term, Base Rent shall increase by three percent (3%) over the Base Rent in effect during the immediately preceding calendar year, cumulatively and compounding. The escalated rent schedule for the full Term is attached as Exhibit D and incorporated herein by reference."
+          },
+          {
+            "id": "clause_120", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain at Tenant's cost throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) professional liability (errors and omissions) insurance of not less than $5,000,000 per claim for accounting and advisory services; (c) property insurance at replacement cost for Tenant's office furnishings, technology infrastructure, and leasehold improvements; and (d) workers' compensation as required under Georgia law. All policies shall name Landlord, Landlord's property manager, and any holder of a mortgage or deed of trust on the Building as additional insureds."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_032",
+    "property": { "name": "One Peachtree Center", "address": "225 E. Trade Street, Charlotte, NC 28202", "anchorTenant": null },
+    "tenant": { "name": "Wells Fargo Bank National Association", "industry": "financial services", "creditRating": "AA+" },
+    "term": { "commencement": "2019-06-01", "expiration": "2029-05-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 38.00, "escalationType": "fixed", "escalationRate": 0.025 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-07-31", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_040", "type": "lease",
+        "title": "Office Lease — Wells Fargo Bank NA at One Peachtree Center",
+        "pageCount": 68,
+        "clauses": [
+          {
+            "id": "clause_121", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 8,000 rentable square feet on the 4th floor of the Building, the sum of $38.00 per rentable square foot per annum, payable in equal monthly installments of $25,333.33 in advance on the first day of each calendar month. Base Rent is subject to annual escalation as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_122", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective June 1 of each year following the first full Lease Year, Base Rent shall increase by two and one-half percent (2.5%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. Base Rent in the final Lease Year (June 1, 2028 – May 31, 2029) shall be approximately $48.34 per rentable square foot per annum, reflecting ten escalation steps from the initial rate of $38.00."
+          },
+          {
+            "id": "clause_123", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) bankers' blanket bond or financial institution bond of not less than $10,000,000; (c) property insurance at replacement cost for Tenant's banking and technology equipment and leasehold improvements; and (d) workers' compensation as required under North Carolina law. Landlord shall be named additional insured on all CGL policies. Certificates shall be delivered annually and within ten (10) days of each renewal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_033",
+    "property": { "name": "Pacific Gateway Plaza", "address": "50 Fremont Street, San Francisco, CA 94105", "anchorTenant": null },
+    "tenant": { "name": "Salesforce Inc.", "industry": "technology", "creditRating": "A+" },
+    "term": { "commencement": "2021-09-01", "expiration": "2028-08-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 72.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-12-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_041", "type": "lease",
+        "title": "Office Lease — Salesforce Inc. at Pacific Gateway Plaza",
+        "pageCount": 94,
+        "clauses": [
+          {
+            "id": "clause_124", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 35,000 rentable square feet on floors 22 through 25 of the Building, the sum of $72.00 per rentable square foot per annum, payable in equal monthly installments of $210,000.00 in advance on the first day of each calendar month during the Term. Base Rent reflects market rates for Class A office space in the SoMa/Financial District submarket as of the Commencement Date and is subject to annual escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_125", "section": "§4.2", "heading": "Annual Rent Escalation",
+            "text": "Effective on September 1 of each Lease Year following Lease Year 1, Base Rent shall increase by three percent (3%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. Annual rent schedule for all Lease Years is set forth in Exhibit D hereto and shall govern regardless of any fluctuation in the San Francisco office submarket."
+          },
+          {
+            "id": "clause_126", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) cyber liability and data breach insurance of not less than $10,000,000 per occurrence, given the sensitive cloud computing and CRM data processed in the Premises; (c) property insurance at replacement cost for Tenant's server infrastructure, workstations, and leasehold improvements; and (d) workers' compensation as required under California law. All policies shall name Landlord and any mortgagee as additional insureds."
+          },
+          {
+            "id": "clause_127", "section": "§22.1", "heading": "Renewal Option",
+            "text": "Tenant shall have one (1) option to renew this Lease for a period of five (5) years, exercisable by written notice delivered to Landlord no later than eighteen (18) months prior to the expiration of the initial Term. Base Rent during the Renewal Term shall be the then-prevailing fair market rental rate for comparable Class A office space in the San Francisco Financial District/SoMa submarket, but in no event less than the Base Rent payable in the final Lease Year of the initial Term."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_034",
+    "property": { "name": "Commerce Square", "address": "2005 Market Street, Philadelphia, PA 19103", "anchorTenant": null },
+    "tenant": { "name": "Comcast Corporation", "industry": "media / technology", "creditRating": "A-" },
+    "term": { "commencement": "2018-04-01", "expiration": "2026-09-30", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 45.00, "escalationType": "stepped" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-05-31", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_042", "type": "lease",
+        "title": "Office Lease — Comcast Corporation at Commerce Square",
+        "pageCount": 88,
+        "clauses": [
+          {
+            "id": "clause_128", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 22,000 rentable square feet on floors 8 through 10 of the Building, the sums per rentable square foot set forth in the stepped rent schedule in Section 4.2, payable in equal monthly installments in advance on the first day of each calendar month without offset or deduction."
+          },
+          {
+            "id": "clause_129", "section": "§4.2", "heading": "Stepped Rent Schedule",
+            "text": "Base Rent shall be payable at the following rates: (i) Lease Years 1 through 3 (April 1, 2018 – March 31, 2021): $40.00 per rentable square foot per annum ($73,333.33 per month); (ii) Lease Years 4 through 6 (April 1, 2021 – March 31, 2024): $45.00 per rentable square foot per annum ($82,500.00 per month); (iii) Lease Years 7 through expiration (April 1, 2024 – September 30, 2026): $48.00 per rentable square foot per annum ($88,000.00 per month). Each step increase is self-effectuating without further notice or amendment."
+          },
+          {
+            "id": "clause_130", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) media liability and errors and omissions insurance of not less than $5,000,000 per claim; (c) cyber liability insurance of not less than $5,000,000 per occurrence; (d) property insurance at replacement cost for Tenant's broadcasting and telecommunications equipment and leasehold improvements; and (e) workers' compensation as required under Pennsylvania law. Landlord and any mortgagee shall be named additional insureds on all CGL policies."
+          },
+          {
+            "id": "clause_131", "section": "§22.1", "heading": "Renewal Option",
+            "text": "Provided Tenant is not in default beyond applicable cure periods, Tenant shall have one (1) option to renew this Lease for an additional period of three (3) years, exercisable by written notice delivered to Landlord no later than twelve (12) months prior to the expiration of the Term. Base Rent during the Renewal Term shall be at the then-prevailing fair market rental rate for comparable Class A office space in the Philadelphia CBD, as mutually agreed by the parties or determined by appraisal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_035",
+    "property": { "name": "Healing Arts Center", "address": "9375 E. Shea Boulevard, Scottsdale, AZ 85260", "anchorTenant": null },
+    "tenant": { "name": "Banner Health", "industry": "medical", "creditRating": "AA" },
+    "term": { "commencement": "2019-11-01", "expiration": "2027-10-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 36.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-08-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_043", "type": "lease",
+        "title": "Medical Office Lease — Banner Health at Healing Arts Center",
+        "pageCount": 58,
+        "clauses": [
+          {
+            "id": "clause_132", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 6,500 rentable square feet configured for medical office and outpatient clinic use, the sum of $36.00 per rentable square foot per annum, payable in equal monthly installments of $19,500.00 in advance on the first day of each calendar month. Base Rent is subject to annual escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_133", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by two percent (2%) on the first day of each Lease Year following Lease Year 1, cumulatively and compounding. The parties acknowledge that the below-market escalation rate reflects Banner Health's creditworthiness and the long-term stability value of a health system anchor tenant in a medical office building."
+          },
+          {
+            "id": "clause_134", "section": "§11.1", "heading": "Insurance — Medical Operations",
+            "text": "Tenant shall maintain throughout the Term at Tenant's cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) medical malpractice insurance for all licensed practitioners operating in the Premises with limits of not less than $1,000,000 per occurrence and $3,000,000 aggregate; (c) property insurance at replacement cost for Tenant's medical equipment, diagnostic devices, and leasehold improvements; and (d) workers' compensation as required under Arizona law. Landlord shall be named additional insured on all CGL policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_036",
+    "property": { "name": "Wellspring Medical Plaza", "address": "2010 Church Street, Nashville, TN 37203", "anchorTenant": null },
+    "tenant": { "name": "DaVita Inc.", "industry": "medical / dialysis", "creditRating": "BBB" },
+    "term": { "commencement": "2020-04-01", "expiration": "2028-03-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 29.00, "escalationType": "fixed", "escalationRate": 0.025 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-09-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_044", "type": "lease",
+        "title": "Medical Office Lease — DaVita Inc. at Wellspring Medical Plaza",
+        "pageCount": 55,
+        "clauses": [
+          {
+            "id": "clause_135", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 5,200 rentable square feet configured for dialysis clinic operations, the sum of $29.00 per rentable square foot per annum, payable in equal monthly installments of $12,566.67 in advance on the first day of each calendar month during the Term. Base Rent is subject to escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_136", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each anniversary thereafter, Base Rent shall increase by two and one-half percent (2.5%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. Annual rent schedule is attached as Exhibit D hereto."
+          },
+          {
+            "id": "clause_137", "section": "§11.1", "heading": "Insurance — Dialysis Clinic",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) medical malpractice insurance with limits of not less than $1,000,000 per occurrence and $3,000,000 aggregate for all dialysis treatment and clinical staff; (c) property insurance at replacement cost for dialysis machines, water treatment systems, and medical equipment; and (d) workers' compensation as required under Tennessee law. All liability policies shall name Landlord as additional insured."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_037",
+    "property": { "name": "Oak Brook Medical Center", "address": "2425 W. 22nd Street, Oak Brook, IL 60523", "anchorTenant": null },
+    "tenant": { "name": "U.S. Dermatology Partners LLC", "industry": "medical", "creditRating": "NR" },
+    "term": { "commencement": "2021-07-01", "expiration": "2029-06-30", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 34.00, "escalationType": "cpi" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-10-31", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_045", "type": "lease",
+        "title": "Medical Office Lease — U.S. Dermatology Partners LLC at Oak Brook Medical Center",
+        "pageCount": 52,
+        "clauses": [
+          {
+            "id": "clause_138", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 3,800 rentable square feet configured for dermatology practice use, the sum of $34.00 per rentable square foot per annum, payable in equal monthly installments of $10,766.67 in advance on the first day of each calendar month. Base Rent is subject to annual CPI adjustment as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_139", "section": "§4.2", "heading": "CPI Adjustment",
+            "text": "Base Rent shall be adjusted annually on each anniversary of the Rent Commencement Date by the percentage change in the Consumer Price Index for All Urban Consumers, Chicago-Naperville-Elgin MSA, as published by the Bureau of Labor Statistics for the twelve (12) month period ending sixty (60) days prior to each adjustment date. Annual adjustments shall not exceed five percent (5%) nor be less than one and one-half percent (1.5%)."
+          },
+          {
+            "id": "clause_140", "section": "§11.1", "heading": "Insurance — Dermatology Practice",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) medical malpractice insurance for all licensed dermatologists and medical aestheticians operating in the Premises, with limits of not less than $1,000,000 per occurrence and $3,000,000 aggregate; (c) property insurance at replacement cost for laser and light-based treatment devices and leasehold improvements; and (d) workers' compensation as required under Illinois law. Landlord shall be named additional insured on all CGL policies."
+          },
+          {
+            "id": "clause_141", "section": "§22.1", "heading": "Renewal Option",
+            "text": "Tenant shall have one (1) option to renew this Lease for an additional five (5) year Renewal Term, exercisable by written notice to Landlord no later than twelve (12) months prior to expiration of the initial Term, provided Tenant is not in default beyond any applicable notice and cure period. Base Rent during the Renewal Term shall be the then-prevailing fair market rent for comparable medical office space in the Oak Brook / I-88 corridor submarket."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_038",
+    "property": { "name": "LifeBridge Health Pavilion", "address": "2401 W. Belvedere Avenue, Baltimore, MD 21215", "anchorTenant": null },
+    "tenant": { "name": "Physical Rehabilitation Network LLC", "industry": "medical / rehabilitation", "creditRating": "NR" },
+    "term": { "commencement": "2020-09-01", "expiration": "2027-08-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 27.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-06-30", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_046", "type": "lease",
+        "title": "Medical Office Lease — Physical Rehabilitation Network LLC at LifeBridge Health Pavilion",
+        "pageCount": 46,
+        "clauses": [
+          {
+            "id": "clause_142", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 3,500 rentable square feet configured for physical therapy and rehabilitation use, the sum of $27.00 per rentable square foot per annum, payable in equal monthly installments of $7,875.00 in advance on the first day of each calendar month. Base Rent is subject to annual escalation as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_143", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first day of each Lease Year following Lease Year 1, Base Rent shall increase by two percent (2%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. The parties acknowledge that the below-market escalation rate reflects the medical office nature of the Premises and Landlord's interest in maintaining a health-and-wellness tenancy mix."
+          },
+          {
+            "id": "clause_144", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) professional liability (physical therapy malpractice) insurance with limits of not less than $1,000,000 per occurrence and $3,000,000 aggregate; (c) property insurance at replacement cost for rehabilitation equipment and leasehold improvements; and (d) workers' compensation as required under Maryland law. Landlord shall be named additional insured on all liability policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_039",
+    "property": { "name": "Greenbrook Commons", "address": "9897 Glades Road, Boca Raton, FL 33434", "anchorTenant": null },
+    "tenant": { "name": "Chicken Salad Chick Franchise LLC", "industry": "food / restaurant", "creditRating": "NR" },
+    "term": { "commencement": "2022-05-01", "expiration": "2030-04-30", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 38.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-11-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_047", "type": "lease",
+        "title": "Retail Lease — Chicken Salad Chick Franchise LLC at Greenbrook Commons",
+        "pageCount": 38,
+        "clauses": [
+          {
+            "id": "clause_145", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,400 rentable square feet configured for fast-casual restaurant operations, the sum of $38.00 per rentable square foot per annum, payable in equal monthly installments of $7,600.00 in advance on the first day of each calendar month. Base Rent is subject to escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_146", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by three percent (3%) on the first day of each Lease Year following Lease Year 1, cumulatively and compounding. The parties acknowledge that the escalation rate reflects strong fast-casual restaurant demand in the South Florida retail market as of the Commencement Date."
+          },
+          {
+            "id": "clause_147", "section": "§11.1", "heading": "Insurance — Restaurant Use",
+            "text": "Tenant shall maintain throughout the Term at Tenant's cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering restaurant operations and food service; (b) product liability insurance of not less than $1,000,000 per occurrence given Tenant's food preparation and retail sales; (c) property insurance at replacement cost for kitchen equipment and leasehold improvements; and (d) workers' compensation as required under Florida law. All policies shall name Landlord and any mortgagee as additional insureds."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_040",
+    "property": { "name": "Sierra Vista Mall", "address": "3185 N. Blackstone Avenue, Fresno, CA 93703", "anchorTenant": null },
+    "tenant": { "name": "Spencer Gifts LLC", "industry": "retail", "creditRating": "NR" },
+    "term": { "commencement": "2018-08-01", "expiration": "2026-07-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 22.00, "escalationType": "fixed", "escalationRate": 0.015 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-05-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_048", "type": "lease",
+        "title": "Retail Lease — Spencer Gifts LLC at Sierra Vista Mall",
+        "pageCount": 36,
+        "clauses": [
+          {
+            "id": "clause_148", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,800 rentable square feet, the sum of $22.00 per rentable square foot per annum, payable in equal monthly installments of $5,133.33 in advance on the first day of each calendar month during the Term. Base Rent is subject to escalation as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_149", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by one and one-half percent (1.5%) on the first day of each Lease Year following Lease Year 1, cumulatively and compounding. The modest escalation rate reflects the parties' agreement that Base Rent in Year 1 is reflective of then-current market rent without embedded above-market escalation."
+          },
+          {
+            "id": "clause_150", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) property insurance at replacement cost for Tenant's retail merchandise, trade fixtures, and leasehold improvements; and (c) workers' compensation as required under California law. All policies shall name Landlord as additional insured. Certificates shall be delivered to Landlord prior to occupancy and within ten (10) days of each annual renewal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_041",
+    "property": { "name": "Stonecreek Plaza", "address": "1500 W. 5th Avenue, Columbus, OH 43212", "anchorTenant": null },
+    "tenant": { "name": "The UPS Store Inc.", "industry": "business services", "creditRating": "NR" },
+    "term": { "commencement": "2021-03-01", "expiration": "2029-02-28", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 25.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-07-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_049", "type": "lease",
+        "title": "Retail Lease — The UPS Store Inc. at Stonecreek Plaza",
+        "pageCount": 35,
+        "clauses": [
+          {
+            "id": "clause_151", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,400 rentable square feet, the sum of $25.00 per rentable square foot per annum, payable in equal monthly installments of $2,916.67 in advance on the first day of each calendar month during the Term. Base Rent is subject to annual escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_152", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each anniversary thereafter, Base Rent shall increase by two percent (2%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. No annual adjustment shall result in a decrease in Base Rent."
+          },
+          {
+            "id": "clause_153", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering shipping, printing, and notary services operations; (b) bailee's liability insurance of not less than $500,000 covering customer packages in Tenant's care, custody, and control; (c) property insurance at replacement cost for Tenant's equipment and leasehold improvements; and (d) workers' compensation as required under Ohio law. Landlord shall be named additional insured on all CGL policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_042",
+    "property": { "name": "Riverwalk Center", "address": "11200 Broadway Street, San Antonio, TX 78217", "anchorTenant": null },
+    "tenant": { "name": "Sport Clips Inc.", "industry": "personal care", "creditRating": "NR" },
+    "term": { "commencement": "2020-11-01", "expiration": "2028-10-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 24.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-08-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_050", "type": "lease",
+        "title": "Retail Lease — Sport Clips Inc. at Riverwalk Center",
+        "pageCount": 35,
+        "clauses": [
+          {
+            "id": "clause_154", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,200 rentable square feet, the sum of $24.00 per rentable square foot per annum, payable in equal monthly installments of $2,400.00 in advance on the first day of each calendar month. Base Rent is subject to escalation as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_155", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Base Rent shall increase by two percent (2%) on the first day of each Lease Year following Lease Year 1, cumulatively and compounding. The escalated rent schedule for the full Term is set forth in Exhibit C hereto."
+          },
+          {
+            "id": "clause_156", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering barbershop and haircut service operations; (b) professional liability insurance of not less than $1,000,000 per claim covering licensed barber and cosmetology services; (c) property insurance at replacement cost for Tenant's equipment and leasehold improvements; and (d) workers' compensation as required under Texas law. Landlord shall be named additional insured on all CGL policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_043",
+    "property": { "name": "Fairview Town Center", "address": "401 NE Northgate Way, Seattle, WA 98125", "anchorTenant": null },
+    "tenant": { "name": "Chipotle Mexican Grill Inc.", "industry": "food / restaurant", "creditRating": "A-" },
+    "term": { "commencement": "2019-04-01", "expiration": "2027-03-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 56.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-09-30", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_051", "type": "lease",
+        "title": "Retail Lease — Chipotle Mexican Grill Inc. at Fairview Town Center",
+        "pageCount": 46,
+        "clauses": [
+          {
+            "id": "clause_157", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,600 rentable square feet, the sum of $56.00 per rentable square foot per annum, payable in equal monthly installments of $12,133.33 in advance on the first day of each calendar month during the Term. Base Rent reflects the premium Seattle retail market rate and is subject to annual escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_158", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each anniversary thereafter, Base Rent shall increase by three percent (3%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. Base Rent in Lease Year 8 (the final Lease Year, April 1, 2026 – March 31, 2027) shall be approximately $68.92 per rentable square foot per annum."
+          },
+          {
+            "id": "clause_159", "section": "§11.1", "heading": "Insurance — Restaurant Operations",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering restaurant operations, food preparation, and customer service; (b) product liability insurance of not less than $2,000,000 per occurrence; (c) property insurance at replacement cost for kitchen equipment and leasehold improvements; and (d) workers' compensation as required under Washington law. Landlord shall be named additional insured on all CGL policies."
+          },
+          {
+            "id": "clause_160", "section": "§22.1", "heading": "Renewal Options",
+            "text": "Tenant shall have two (2) consecutive options to renew this Lease for periods of five (5) years each, exercisable by written notice to Landlord not less than twelve (12) months prior to expiration of the then-current Term, provided Tenant is not in monetary or material non-monetary default. Base Rent during each Renewal Term shall be the greater of (i) the Base Rent in effect in the final month of the preceding Term, or (ii) ninety-five percent (95%) of the then-prevailing fair market rental rate for comparable restaurant space in the North Seattle submarket."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_044",
+    "property": { "name": "Morrison Creek Commons", "address": "8251 Elk Grove Boulevard, Sacramento, CA 95758", "anchorTenant": null },
+    "tenant": { "name": "Planet Fitness Inc.", "industry": "fitness", "creditRating": "BB+" },
+    "term": { "commencement": "2020-12-01", "expiration": "2030-11-30", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 15.00, "escalationType": "none" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-12-31", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_052", "type": "lease",
+        "title": "Retail Lease — Planet Fitness Inc. at Morrison Creek Commons",
+        "pageCount": 48,
+        "clauses": [
+          {
+            "id": "clause_161", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 18,000 rentable square feet, the fixed sum of $15.00 per rentable square foot per annum, payable in equal monthly installments of $22,500.00 in advance on the first day of each calendar month during the Term. Notwithstanding any other provision hereof, Base Rent shall not increase during the initial Term. The parties acknowledge that the flat Base Rent structure reflects (i) Tenant's build-out of the full shell space at Tenant's cost, and (ii) the long-term traffic generation value of a high-membership-volume fitness operator."
+          },
+          {
+            "id": "clause_162", "section": "§4.2", "heading": "No Escalation During Initial Term",
+            "text": "Base Rent shall remain fixed at $15.00 per rentable square foot per annum ($22,500.00 per month) for the full initial Term of ten (10) years. Landlord expressly waives any right to increase Base Rent or impose rent supplements except for Operating Expense Adjustments as provided in Section 8.3 and CAM Reconciliation pursuant to Section 8.4. No index, market condition, or comparable lease transaction shall give rise to any mid-Term Base Rent adjustment."
+          },
+          {
+            "id": "clause_163", "section": "§11.1", "heading": "Insurance — Fitness Center",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, specifically endorsed for fitness center and gym operations with 24-hour member access; (b) property insurance at replacement cost for Tenant's fitness equipment, tanning beds, and leasehold improvements; and (c) workers' compensation as required under California law. Landlord and any mortgagee shall be named additional insureds on all liability policies."
+          },
+          {
+            "id": "clause_164", "section": "§22.1", "heading": "Renewal Options",
+            "text": "Tenant shall have two (2) consecutive options to renew this Lease, each for a period of five (5) years, exercisable by written notice to Landlord no later than twelve (12) months prior to expiration of the then-current Term, provided Tenant is not in default beyond applicable cure periods. Base Rent during the first Renewal Term shall be set at the greater of (i) $15.00 per rentable square foot per annum, or (ii) ninety percent (90%) of the then-prevailing fair market rate for comparable big-box fitness space in the Sacramento MSA."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_045",
+    "property": { "name": "Timberline Center", "address": "2344 S. College Avenue, Fort Collins, CO 80525", "anchorTenant": null },
+    "tenant": { "name": "Edward Jones", "industry": "financial services", "creditRating": "NR" },
+    "term": { "commencement": "2021-08-01", "expiration": "2027-07-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 26.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-06-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_053", "type": "lease",
+        "title": "Office Lease — Edward Jones at Timberline Center",
+        "pageCount": 33,
+        "clauses": [
+          {
+            "id": "clause_165", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,400 rentable square feet, the sum of $26.00 per rentable square foot per annum, payable in equal monthly installments of $3,033.33 in advance on the first day of each calendar month during the Term. Base Rent is subject to annual escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_166", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each anniversary thereafter, Base Rent shall increase by two percent (2%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding."
+          },
+          {
+            "id": "clause_167", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate; (b) professional liability (errors and omissions) insurance of not less than $1,000,000 per claim covering financial advisory and investment brokerage services; (c) property insurance at replacement cost for Tenant's office equipment and leasehold improvements; and (d) workers' compensation as required under Colorado law. Landlord shall be named additional insured on all CGL policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_046",
+    "property": { "name": "Kennesaw Marketplace", "address": "4400 Town Center Road, Kennesaw, GA 30144", "anchorTenant": null },
+    "tenant": { "name": "T-Mobile USA Inc.", "industry": "telecommunications / retail", "creditRating": "BBB+" },
+    "term": { "commencement": "2022-01-01", "expiration": "2029-12-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 42.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-10-15", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_054", "type": "lease",
+        "title": "Retail Lease — T-Mobile USA Inc. at Kennesaw Marketplace",
+        "pageCount": 40,
+        "clauses": [
+          {
+            "id": "clause_168", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,800 rentable square feet, the sum of $42.00 per rentable square foot per annum, payable in equal monthly installments of $6,300.00 in advance on the first day of each calendar month. Base Rent is subject to annual escalation as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_169", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first day of each Lease Year following Lease Year 1, Base Rent shall increase by three percent (3%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. The parties acknowledge that the escalation rate reflects prevailing trends in Atlanta-area retail rental markets as of the Commencement Date."
+          },
+          {
+            "id": "clause_170", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering wireless device sales, repairs, and demonstrations; (b) property insurance at replacement cost for Tenant's wireless devices, display inventory, and leasehold improvements; and (c) workers' compensation as required under Georgia law. All policies shall name Landlord as additional insured. Certificates shall be delivered to Landlord prior to the Commencement Date and within ten (10) days of each annual renewal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_047",
+    "property": { "name": "Citadel Crossing", "address": "1600 Space Center Drive, Colorado Springs, CO 80915", "anchorTenant": null },
+    "tenant": { "name": "Bath & Body Works LLC", "industry": "retail", "creditRating": "BBB" },
+    "term": { "commencement": "2020-06-01", "expiration": "2027-05-31", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 31.00, "escalationType": "fixed", "escalationRate": 0.025 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-07-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_055", "type": "lease",
+        "title": "Retail Lease — Bath & Body Works LLC at Citadel Crossing",
+        "pageCount": 41,
+        "clauses": [
+          {
+            "id": "clause_171", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,400 rentable square feet, the sum of $31.00 per rentable square foot per annum, payable in equal monthly installments of $6,200.00 in advance on the first day of each calendar month during the Term. Base Rent is subject to escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_172", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first day of each Lease Year following Lease Year 1, Base Rent shall increase by two and one-half percent (2.5%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. Base Rent in Lease Year 7 (the final Lease Year) shall be approximately $36.59 per rentable square foot per annum ($7,318.00 per month)."
+          },
+          {
+            "id": "clause_173", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering personal care product retail sales and in-store fragrance demonstrations; (b) product liability insurance of not less than $2,000,000 per occurrence given Tenant's candle and personal care product inventory; (c) property insurance at replacement cost for Tenant's merchandise, trade fixtures, and leasehold improvements; and (d) workers' compensation as required under Colorado law. Landlord shall be named additional insured on all liability policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_048",
+    "property": { "name": "Peachtree Pavilion", "address": "6500 Sugarloaf Parkway, Lawrenceville, GA 30043", "anchorTenant": null },
+    "tenant": { "name": "Massage Heights Franchise LLC", "industry": "wellness", "creditRating": "NR" },
+    "term": { "commencement": "2021-10-01", "expiration": "2029-09-30", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 27.00, "escalationType": "cpi" },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-11-30", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_056", "type": "lease",
+        "title": "Retail Lease — Massage Heights Franchise LLC at Peachtree Pavilion",
+        "pageCount": 38,
+        "clauses": [
+          {
+            "id": "clause_174", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 2,600 rentable square feet, the sum of $27.00 per rentable square foot per annum, payable in equal monthly installments of $5,850.00 in advance on the first day of each calendar month. Base Rent is subject to annual CPI adjustment as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_175", "section": "§4.2", "heading": "CPI Adjustment",
+            "text": "Base Rent shall be adjusted annually on each anniversary of the Rent Commencement Date by the percentage change in the Consumer Price Index for All Urban Consumers, Atlanta-Sandy Springs-Roswell MSA, as published by the Bureau of Labor Statistics for the twelve (12) month period ending sixty (60) days prior to each adjustment date. Annual adjustments shall not exceed five percent (5%) nor be less than one and one-half percent (1.5%)."
+          },
+          {
+            "id": "clause_176", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering massage therapy and wellness services; (b) professional liability insurance of not less than $1,000,000 per claim; (c) property insurance at replacement cost for Tenant's massage equipment, treatment furniture, and leasehold improvements; and (d) workers' compensation as required under Georgia law. Landlord shall be named additional insured on all CGL policies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_049",
+    "property": { "name": "Crosstown Village", "address": "5115 Minnetonka Boulevard, Minneapolis, MN 55416", "anchorTenant": null },
+    "tenant": { "name": "Jersey Mike's Franchise Systems Inc.", "industry": "food / restaurant", "creditRating": "NR" },
+    "term": { "commencement": "2022-03-01", "expiration": "2030-02-28", "renewalOptions": 1 },
+    "rent": { "baseRentPsf": 32.00, "escalationType": "fixed", "escalationRate": 0.03 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-08-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_057", "type": "lease",
+        "title": "Retail Lease — Jersey Mike's Franchise Systems Inc. at Crosstown Village",
+        "pageCount": 37,
+        "clauses": [
+          {
+            "id": "clause_177", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 1,800 rentable square feet configured for sandwich restaurant operations, the sum of $32.00 per rentable square foot per annum, payable in equal monthly installments of $4,800.00 in advance on the first day of each calendar month during the Term. Base Rent is subject to annual escalation as provided in Section 4.2."
+          },
+          {
+            "id": "clause_178", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first day of each Lease Year following Lease Year 1, Base Rent shall increase by three percent (3%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. Escalation is self-effectuating without notice or amendment."
+          },
+          {
+            "id": "clause_179", "section": "§11.1", "heading": "Insurance — Restaurant Use",
+            "text": "Tenant shall maintain throughout the Term: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering sandwich restaurant operations and food service; (b) property insurance at replacement cost for Tenant's deli equipment, refrigeration, and leasehold improvements; and (c) workers' compensation as required under Minnesota law. All policies shall name Landlord and any mortgagee as additional insureds."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lease_050",
+    "property": { "name": "Oakdale Commons", "address": "9000 SW Barbur Boulevard, Portland, OR 97219", "anchorTenant": null },
+    "tenant": { "name": "Ace Hardware Corp.", "industry": "retail / hardware", "creditRating": "BBB" },
+    "term": { "commencement": "2019-01-01", "expiration": "2027-12-31", "renewalOptions": 2 },
+    "rent": { "baseRentPsf": 21.00, "escalationType": "fixed", "escalationRate": 0.02 },
+    "cotenancy": { "hasCotenancy": false, "requiredTenants": [], "status": "satisfied" },
+    "coi": { "onFile": true, "expirationDate": "2026-05-01", "requiredCoverage": 2000000 },
+    "documents": [
+      {
+        "id": "doc_058", "type": "lease",
+        "title": "Retail Lease — Ace Hardware Corp. at Oakdale Commons",
+        "pageCount": 50,
+        "clauses": [
+          {
+            "id": "clause_180", "section": "§4.1", "heading": "Base Rent",
+            "text": "Tenant shall pay to Landlord, as Base Rent for the Premises consisting of approximately 8,500 rentable square feet, the sum of $21.00 per rentable square foot per annum, payable in equal monthly installments of $14,875.00 in advance on the first day of each calendar month during the Term. Base Rent is subject to annual escalation as set forth in Section 4.2."
+          },
+          {
+            "id": "clause_181", "section": "§4.2", "heading": "Annual Escalation",
+            "text": "Effective on the first anniversary of the Commencement Date and each anniversary thereafter, Base Rent shall increase by two percent (2%) over the Base Rent payable in the immediately preceding Lease Year, cumulatively and compounding. Base Rent in Lease Year 9 (the final Lease Year, January 1, 2027 – December 31, 2027) shall be approximately $24.93 per rentable square foot per annum ($17,658.75 per month)."
+          },
+          {
+            "id": "clause_182", "section": "§11.1", "heading": "Insurance",
+            "text": "Tenant shall maintain throughout the Term at Tenant's sole cost: (a) commercial general liability insurance with limits of $2,000,000 per occurrence and $4,000,000 aggregate, covering hardware retail, tool rental, and in-store service operations; (b) product liability insurance of not less than $2,000,000 per occurrence given Tenant's hardware and power tool sales; (c) property insurance at replacement cost for Tenant's merchandise, fixtures, and leasehold improvements; and (d) workers' compensation as required under Oregon law. All policies shall name Landlord and any recorded mortgagee as additional insureds."
+          },
+          {
+            "id": "clause_183", "section": "§22.1", "heading": "Renewal Options",
+            "text": "Provided Tenant is not in default beyond applicable cure periods, Tenant shall have two (2) consecutive options to renew this Lease for five (5) years each, exercisable by written notice delivered to Landlord no later than twelve (12) months prior to expiration of the then-current Term. Base Rent during each Renewal Term shall be the then-prevailing fair market rental rate for comparable hardware-retail space in the Southwest Portland submarket, as mutually agreed by the parties within sixty (60) days of Landlord's receipt of Tenant's renewal notice; failing agreement, the Renewal Term Base Rent shall be determined by a single MAI-certified appraiser mutually selected by the parties."
+          }
+        ]
+      }
+    ]
+  }
+]

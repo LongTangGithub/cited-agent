@@ -18,3 +18,8 @@ Read at start of every task. Follow every rule.
 ## Design
 
 - **(2026-05-29)** Warm dark palette needs non-zero chroma on neutral tokens. `oklch(0.22 0.004 110)` reads as deliberate brand; `oklch(0.22 0 0)` reads as Shadcn template.
+
+## Fake Data / Demo Realism
+
+- **(2026-05-29)** When deferring work, state the real reason: does the demo scenario require it? Don't cite implementation disruption (e.g. "disturbs existing IDs") when that's overblown — appending new IDs never disturbs existing ones. The honest question is whether the feature unlocks a scenario or just adds visual variety.
+- **(2026-05-29)** Never embed JSON field values as prose in fake documents. "Co-Tenancy status: at_risk" inside a clause text is a meta-leak — a CRE reader will notice. Let narrative carry the status: describe the factual situation (anchor announced closure, no renewal committed) and let the reader infer the implication. Same rule applies to any field that mirrors real-world judgment (credit ratings, risk flags, condition codes).
