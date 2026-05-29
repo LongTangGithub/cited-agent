@@ -6,10 +6,7 @@ Source of truth for what's built, in flight, and next. Read before touching code
 
 ## Current Focus
 
-**Day 2** — Generate 50-lease fake CRE dataset (JSON in `/data`) supporting three demo scenarios:
-- Q1 2026 expirations + missing COIs
-- Whole Foods-anchored portfolio comparison
-- Co-tenancy clauses at risk
+**Day 3** — Plan-card UI: prompt input, scenario chips, inspectable/reorderable plan cards.
 
 ---
 
@@ -21,6 +18,11 @@ Source of truth for what's built, in flight, and next. Read before touching code
 ---
 
 ## Completed
+
+### 2026-05-29 — Day 3
+
+- **Day 3 — Plan-card UI.** `src/lib/plan-types.ts` (PlanStep types), `src/data/mock-plan.ts` (4-step hardcoded plan + 3 scenario prompts), `src/components/plan/PlanCard.tsx` (compact/expand, drag handle, kebab menu, status badge), `src/components/plan/PlanList.tsx` (dnd-kit sortable), `src/components/plan/PromptInput.tsx` (auto-grow textarea + chips), `src/components/plan/ActionBar.tsx` (sticky footer). `page.tsx` replaced with full demo. `tsc --noEmit` clean, production build passes.
+- **Day 3 polish.** Fixed truncation (description gets `flex-1 min-w-0`, tool name gets `shrink-0`). Step circle: `text-foreground/70`. Textarea: `bg-card`, `border-border/60`, border-emphasis focus (no ring). Chips: active uses `bg-accent`. Empty state in PlanList for scenarios 2/3. Popover z-index confirmed OK (portal already in place). `tsc --noEmit` clean.
 
 ### 2026-05-29 — Day 2
 
@@ -39,7 +41,7 @@ Source of truth for what's built, in flight, and next. Read before touching code
 | Day | Item |
 |-----|------|
 | ~~2~~ | ~~50-lease JSON dataset~~ — ✅ done |
-| 3 | Plan-card UI — agent's 5-step plan as inspectable/reorderable cards (dnd-kit) |
+| ~~3~~ | ~~Plan-card UI~~ — ✅ done |
 | 4 | Anthropic API tool use — `searchLeases`, `extractClause`, `compareTerms`, `draftEmail`. Streaming. |
 | 5 | Citation system — dual citations (source doc + reasoning step) with hover previews |
 | 5-stretch | Add REA + standalone COI doc types to leases.json for visual variety — not a functional unlock, all 3 demo scenarios work without them |
@@ -62,6 +64,8 @@ Source of truth for what's built, in flight, and next. Read before touching code
 | 2026-05-29 | Radix as Shadcn primitive | Aligned with primary docs/community; no migration cost for 2-week build |
 | 2026-05-29 | Dark mode only, no toggle | Mirrors Prismera's dark-first aesthetic; half the tokens to maintain |
 | 2026-05-29 | Real Anthropic API tool use, not mocked | Founder will notice fake streaming. Authenticity is the point. |
+| 2026-05-29 | Compact-by-default cards with click-to-expand | Keeps the plan scannable at a glance; args/expected output are detail that don't need to be always visible. Expand is CSS max-height+opacity, no framer-motion. |
+| 2026-05-29 | @dnd-kit/utilities not installed (inline CSS.Transform) | Spec said only install core+sortable. Utilities is a separate peer dep; inlined the transform string (`translate3d(x,y,0) scaleX scaleY`) instead. |
 
 ---
 
