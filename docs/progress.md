@@ -17,11 +17,15 @@ Source of truth for what's built, in flight, and next. Read before touching code
 
 | Started | Item | Notes |
 |---------|------|-------|
-| 2026-05-29 | Day 2 — 50-lease fake dataset | Not started |
 
 ---
 
 ## Completed
+
+### 2026-05-29 — Day 2
+
+- **Day 2 — 50-lease fake CRE dataset.** `src/data/leases.json` (50 leases, 58 docs, 183 clauses), `src/lib/leases.ts` (Lease type + getLeases()), `scripts/verify-leases.ts`. All 21 assertions pass: 8 Q1 2026 expirations (6 with coi.onFile=false), 6 Whole Foods / 4 Target / 3 CVS anchors with correct escalation mix, 5 co-tenancy at_risk/violated with real cross-references. `tsc --noEmit` clean.
+- **Prose cleanup — co-tenancy clauses.** Removed meta-leaky status declarations ("Co-Tenancy status: at_risk", "classified as: at_risk") from 6 clauses across 5 leases (lease_019–023 + one Whole Foods satisfied clause). Status now implied by narrative only. All 21 verify assertions still pass.
 
 ### 2026-05-29
 
@@ -34,10 +38,11 @@ Source of truth for what's built, in flight, and next. Read before touching code
 
 | Day | Item |
 |-----|------|
-| 2 | 50-lease JSON dataset — Q1 expirations, Whole Foods anchors, co-tenancy scenarios |
+| ~~2~~ | ~~50-lease JSON dataset~~ — ✅ done |
 | 3 | Plan-card UI — agent's 5-step plan as inspectable/reorderable cards (dnd-kit) |
 | 4 | Anthropic API tool use — `searchLeases`, `extractClause`, `compareTerms`, `draftEmail`. Streaming. |
 | 5 | Citation system — dual citations (source doc + reasoning step) with hover previews |
+| 5-stretch | Add REA + standalone COI doc types to leases.json for visual variety — not a functional unlock, all 3 demo scenarios work without them |
 | 6 | Doc-jump — click citation opens lease at exact clause in side panel, highlighted |
 | 7 | Polish citations, hover states, keyboard nav. Buffer day. |
 | 8 | Trust budget meter — scope indicator + explicit approval gate on send actions |
