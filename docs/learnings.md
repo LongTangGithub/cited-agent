@@ -29,6 +29,13 @@ Read at start of every task. Follow every rule.
 - **(2026-05-29)** When streaming structured output (tool_use input deltas), prefer staged semantic events emitted after parsing over forwarding raw partial JSON to the client. Partial JSON is unreliable to parse incrementally (partial keys/values), and for a 2–5 step plan the staged reveal is visually indistinguishable from real streaming.
 - **(2026-05-29)** Always `console.log(response.usage)` when first wiring prompt caching. Caching failures are silent — no error, just full token cost on every call — so explicit verification is the only way to confirm it's working. Check `cache_read_input_tokens` > 0 on the second call with the same context.
 
+## Citations / react-markdown
+
+- **(2026-05-29)** For inline citation injection in react-markdown, intercept string children in the `p` and `li` component renderers, split on the citation regex, and return a mixed array of strings and React elements. Don't try to use a remark/rehype plugin — this is simpler and sufficient for prose markdown.
+- **(2026-05-29)** To keep the Sheet side panel open while swapping content (no slide animation replays), keep `open` prop tied to `citation !== null`. When citation changes from A→B (both non-null), `open` stays `true` — no close/reopen. Use a `useRef` to keep the last citation visible during the exit animation so content doesn't flash empty.
+- **(2026-05-29)** Citation instruction must be placed AFTER the prompt-cached block in the system prompt, not before it. Placing before would invalidate the cache on every execute call and pay full token cost on the dataset.
+- **(2026-05-29)** react-markdown v10 is ESM-only. Next.js 15/16 handles it without transpilePackages config. If you see "module not found" errors in older Next versions, add `transpilePackages: ["react-markdown"]` to `next.config.*`.
+
 ## Fake Data / Demo Realism
 
 - **(2026-05-29)** When deferring work, state the real reason: does the demo scenario require it? Don't cite implementation disruption (e.g. "disturbs existing IDs") when that's overblown — appending new IDs never disturbs existing ones. The honest question is whether the feature unlocks a scenario or just adds visual variety.
