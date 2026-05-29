@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { GripVertical, MoreHorizontal, Check } from "lucide-react";
+import { GripVertical, MoreHorizontal, Check, Loader2, X } from "lucide-react";
 import { useSortable } from "@dnd-kit/sortable";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -12,6 +12,18 @@ import {
 } from "@/components/ui/popover";
 import { cn } from "@/lib/utils";
 import type { PlanStep, PlanStepStatus } from "@/lib/plan-types";
+
+function StatusBadge({ status }: { status: PlanStep["status"] }) {
+  if (status === "approved")
+    return <Badge variant="secondary" className="mt-0.5 shrink-0 gap-1"><Check className="size-3" />Approved</Badge>;
+  if (status === "running")
+    return <Badge variant="outline" className="mt-0.5 shrink-0 gap-1 border-primary/30"><Loader2 className="size-3 animate-spin" />Running</Badge>;
+  if (status === "done")
+    return <Badge variant="outline" className="mt-0.5 shrink-0 gap-1 border-chart-4/50 text-chart-4"><Check className="size-3" />Done</Badge>;
+  if (status === "failed")
+    return <Badge variant="outline" className="mt-0.5 shrink-0 gap-1 border-destructive/50 text-destructive"><X className="size-3" />Failed</Badge>;
+  return null;
+}
 
 type Props = {
   step: PlanStep;
@@ -37,7 +49,8 @@ export function PlanCard({ step, onEdit, onDelete, onStatusChange }: Props) {
     opacity: isDragging ? 0.4 : 1,
   };
 
-  const isApproved = step.status === "approved";
+  const { status } = step;
+  const isApproved = status === "approved";
 
   return (
     <div
@@ -46,7 +59,11 @@ export function PlanCard({ step, onEdit, onDelete, onStatusChange }: Props) {
       {...attributes}
       className={cn(
         "flex items-start gap-3 rounded-lg border bg-card px-3 py-3 text-sm transition-colors",
-        isApproved ? "border-primary/40" : "border-border"
+        status === "proposed" && "border-border",
+        status === "approved" && "border-primary/40",
+        status === "running" && "animate-pulse border-primary/20",
+        status === "done" && "border-chart-4/50",
+        status === "failed" && "border-destructive/50"
       )}
     >
       {/* Drag handle */}
@@ -96,12 +113,7 @@ export function PlanCard({ step, onEdit, onDelete, onStatusChange }: Props) {
       </button>
 
       {/* Status badge */}
-      {isApproved && (
-        <Badge variant="secondary" className="mt-0.5 shrink-0 gap-1">
-          <Check className="size-3" />
-          Approved
-        </Badge>
-      )}
+      <StatusBadge status={step.status} />
 
       {/* Kebab menu */}
       <Popover open={menuOpen} onOpenChange={setMenuOpen}>

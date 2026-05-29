@@ -19,6 +19,16 @@ Read at start of every task. Follow every rule.
 
 - **(2026-05-29)** Warm dark palette needs non-zero chroma on neutral tokens. `oklch(0.22 0.004 110)` reads as deliberate brand; `oklch(0.22 0 0)` reads as Shadcn template.
 
+## Anthropic API / Streaming
+
+- **(2026-05-29)** Prompt cache `cache_control: {type: "ephemeral"}` goes on the large content block (lease dataset), not the system role description or tool instructions. Only one block should be marked — mark the largest one.
+- **(2026-05-29)** For SSE from Next.js App Router POST routes: return `new Response(new ReadableStream({...}), { headers: {"Content-Type": "text/event-stream", "Cache-Control": "no-cache"} })`. No library needed. Client reads with `response.body.getReader()`.
+- **(2026-05-29)** `EventSource` only supports GET. For POST + SSE, use `fetch` and consume `response.body` as a `ReadableStream`. Parse SSE by splitting on `"\n\n"` and stripping `"data: "` prefix.
+- **(2026-05-29)** dnd-kit hydration mismatch: `aria-describedby` IDs differ between SSR and client. Fix: `dynamic(() => import("./PlanList"), { ssr: false })` in the page. Confirmed this is the correct fix.
+
+- **(2026-05-29)** When streaming structured output (tool_use input deltas), prefer staged semantic events emitted after parsing over forwarding raw partial JSON to the client. Partial JSON is unreliable to parse incrementally (partial keys/values), and for a 2–5 step plan the staged reveal is visually indistinguishable from real streaming.
+- **(2026-05-29)** Always `console.log(response.usage)` when first wiring prompt caching. Caching failures are silent — no error, just full token cost on every call — so explicit verification is the only way to confirm it's working. Check `cache_read_input_tokens` > 0 on the second call with the same context.
+
 ## Fake Data / Demo Realism
 
 - **(2026-05-29)** When deferring work, state the real reason: does the demo scenario require it? Don't cite implementation disruption (e.g. "disturbs existing IDs") when that's overblown — appending new IDs never disturbs existing ones. The honest question is whether the feature unlocks a scenario or just adds visual variety.

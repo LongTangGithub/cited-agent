@@ -6,7 +6,7 @@ Source of truth for what's built, in flight, and next. Read before touching code
 
 ## Current Focus
 
-**Day 3** — Plan-card UI: prompt input, scenario chips, inspectable/reorderable plan cards.
+**Day 4** — Real Anthropic API tool-use loop: two-phase plan + execute over SSE.
 
 ---
 
@@ -18,6 +18,11 @@ Source of truth for what's built, in flight, and next. Read before touching code
 ---
 
 ## Completed
+
+### 2026-05-29 — Day 4
+
+- **Day 4 polish.** AbortController in useAgent (abort on chip switch + reset); staged `plan_step_added` events replace raw `plan_delta` (80ms stagger, cards appear one at a time, "Approve & run" gated until `plan_complete`). Cache confirmed: call 1 `creation=37552 read=0`; call 2 `creation=41 read=37552`; calls 3-4 `creation=0 read=37552+`. `tsc --noEmit` clean.
+- **Day 4 — Anthropic API tool-use loop.** `src/lib/agent-types.ts` (AgentEvent + AgentState), `src/lib/tools/index.ts` (searchLeases, extractClause, compareTerms, draftEmail + Anthropic schemas), `src/app/api/agent/route.ts` (SSE route, Phase 1 streaming plan, Phase 2 agentic execution loop), `src/lib/agent-client.ts` (useAgent hook), updated PlanCard (running/done/failed states), ActionBar (Approve & run enabled), page.tsx (mock replaced with useAgent). `tsc --noEmit` clean, build passes. Verified via curl: Phase 1 streams plan_delta tokens and emits plan_complete; Phase 2 emits step_start/step_done per tool call and execution_complete with summary; step_failed fires correctly on tool error. Prompt cache: `cache_control: {type: "ephemeral"}` on lease dataset block. Decision: `plan_delta.partial` typed as `string` (raw JSON accumulation) rather than `Partial<PlanStep>[]` — avoids streaming JSON parser dep; client shows spinner during planning.
 
 ### 2026-05-29 — Day 3
 
@@ -42,7 +47,7 @@ Source of truth for what's built, in flight, and next. Read before touching code
 |-----|------|
 | ~~2~~ | ~~50-lease JSON dataset~~ — ✅ done |
 | ~~3~~ | ~~Plan-card UI~~ — ✅ done |
-| 4 | Anthropic API tool use — `searchLeases`, `extractClause`, `compareTerms`, `draftEmail`. Streaming. |
+| ~~4~~ | ~~Anthropic API tool use~~ — ✅ done |
 | 5 | Citation system — dual citations (source doc + reasoning step) with hover previews |
 | 5-stretch | Add REA + standalone COI doc types to leases.json for visual variety — not a functional unlock, all 3 demo scenarios work without them |
 | 6 | Doc-jump — click citation opens lease at exact clause in side panel, highlighted |
@@ -66,6 +71,8 @@ Source of truth for what's built, in flight, and next. Read before touching code
 | 2026-05-29 | Real Anthropic API tool use, not mocked | Founder will notice fake streaming. Authenticity is the point. |
 | 2026-05-29 | Compact-by-default cards with click-to-expand | Keeps the plan scannable at a glance; args/expected output are detail that don't need to be always visible. Expand is CSS max-height+opacity, no framer-motion. |
 | 2026-05-29 | @dnd-kit/utilities not installed (inline CSS.Transform) | Spec said only install core+sortable. Utilities is a separate peer dep; inlined the transform string (`translate3d(x,y,0) scaleX scaleY`) instead. |
+| 2026-05-29 | plan_delta.partial typed as string, not Partial<PlanStep>[] | Streaming JSON parsing without a new dep requires complex implementation. Client shows "Planning…" spinner; full cards render on plan_complete. Streaming feel is in Phase 2 card flips. |
+| 2026-05-29 | Phase 2 execution uses non-streaming client.messages.create | Each tool-call round-trip is a separate API call. Step-by-step SSE events (step_start/step_done) provide visible streaming feel without streaming the Claude response itself. |
 
 ---
 

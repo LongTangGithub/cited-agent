@@ -1,21 +1,20 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { PromptInput } from "@/components/plan/PromptInput";
 import { ActionBar } from "@/components/plan/ActionBar";
+import { useAgent } from "@/lib/agent-client";
+import {
+  SCENARIO_1_PROMPT,
+  SCENARIO_2_PROMPT,
+  SCENARIO_3_PROMPT,
+} from "@/data/mock-plan";
 
 const PlanList = dynamic(
   () => import("@/components/plan/PlanList").then((m) => ({ default: m.PlanList })),
   { ssr: false }
 );
-import {
-  SCENARIO_1_PROMPT,
-  SCENARIO_2_PROMPT,
-  SCENARIO_3_PROMPT,
-  SCENARIO_1_PLAN,
-} from "@/data/mock-plan";
-import type { PlanStep } from "@/lib/plan-types";
 
 const SCENARIOS = [
   { label: "Q1 expirations + missing COIs", prompt: SCENARIO_1_PROMPT },
@@ -24,27 +23,32 @@ const SCENARIOS = [
 ];
 
 export default function Home() {
+  const agent = useAgent();
   const [prompt, setPrompt] = useState(SCENARIO_1_PROMPT);
-  const [steps, setSteps] = useState<PlanStep[]>(SCENARIO_1_PLAN);
-  const [activeScenario, setActiveScenario] = useState<number | null>(0);
+  const [activeScenario, setActiveScenario] = useState<number | null>(null);
   const [editMode, setEditMode] = useState(false);
   const [planKey, setPlanKey] = useState(0);
+
+  // Reset PlanList when a new plan arrives
+  useEffect(() => {
+    if (agent.state === "ready") {
+      setPlanKey((k) => k + 1);
+    }
+  }, [agent.state]);
 
   function handleScenarioSelect(index: number, scenarioPrompt: string) {
     setPrompt(scenarioPrompt);
     setActiveScenario(index);
-    if (index === 0) {
-      setSteps(SCENARIO_1_PLAN);
-    } else {
-      setSteps([]);
-    }
-    setPlanKey((k) => k + 1);
+    agent.runPlan(scenarioPrompt);
   }
 
   function handlePromptChange(value: string) {
     setPrompt(value);
     setActiveScenario(null);
   }
+
+  const isPlanning = agent.state === "planning";
+  const canApprove = agent.state === "ready" && agent.steps.length > 0;
 
   return (
     <main className="min-h-screen bg-background text-foreground">
@@ -64,19 +68,42 @@ export default function Home() {
           onScenarioSelect={handleScenarioSelect}
         />
 
-        {/* Plan cards */}
-        <div className="mt-6">
-          <p className="mb-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
-            Proposed plan
+        {/* Planning indicator */}
+        {isPlanning && (
+          <p className="mt-6 text-sm text-muted-foreground animate-pulse">
+            Planning…
           </p>
-          <PlanList key={planKey} steps={steps} />
-        </div>
+        )}
+
+        {/* Plan cards */}
+        {!isPlanning && (
+          <div className="mt-6">
+            <p className="mb-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+              Proposed plan
+            </p>
+            <PlanList key={planKey} steps={agent.steps} />
+          </div>
+        )}
+
+        {/* Summary */}
+        {agent.summary && (
+          <div className="mt-6 rounded-lg border border-border bg-card p-4 text-sm text-muted-foreground whitespace-pre-wrap">
+            {agent.summary}
+          </div>
+        )}
+
+        {/* Error */}
+        {agent.error && (
+          <p className="mt-4 text-sm text-destructive">{agent.error}</p>
+        )}
       </div>
 
       <ActionBar
-        stepCount={steps.length}
+        stepCount={agent.steps.length}
         editMode={editMode}
         onEditToggle={() => setEditMode((v) => !v)}
+        canApprove={canApprove}
+        onApprove={agent.executePlan}
       />
     </main>
   );
